@@ -1,3 +1,3 @@
 oncahoots-frontend-v2
 =====================
-Do not edit any files in vendor directory.
+Do NOT edit any files in vendor directorys.
