@@ -1,0 +1,167 @@
+/* ==========================================================================
+   different screens styles here
+   ========================================================================== */
+@media (min-width: 768px) and (max-width: 1200px) {
+.navbar-toggle{
+	display:block;
+}
+.navbar-nav li{
+	clear:none;
+	width:auto;
+	margin-left:10px;
+}
+.navbar-nav li:last-child a{
+	height:20px;
+	width:40px;
+	margin-top:40px;
+}
+.navbar-collapse.collapse{
+	display:none !important;
+}
+#ssp2{
+	width:100%;
+}
+.slider{
+	float:left;
+	width:100%;
+}
+.btns{
+	margin-top:250px;
+}
+.dropfil{
+	width:100%;
+}
+.dropfil a{
+	width:92%;
+}
+.field1{
+	width:92%;
+}
+.btn1{
+	padding:10px 12px;
+}
+.pos{
+	width:105%;
+}
+}
+@media (max-width: 767px) {
+.dropfil, .club, .updates, .half, .green{
+	width:100%;
+}
+#ssp2{
+	width:98%;
+	padding-left:15px;
+}
+.pos, .updates{
+	width:100%;
+	margin-top:25px;
+}
+.btns{
+	margin-top:40%;
+}
+.btns li{
+	margin-right:6px;
+	margin-bottom:6px;
+}
+#ssp, #ssp2{
+	margin-left:0;
+}
+.field1{
+	width:87.9%%;
+}
+.sep{
+	font-size:12px !important;
+}
+.btn2{
+	font-size:12px;
+}
+.btn1{
+	padding:10px 12px;
+}
+.dropfil a{
+	padding:18px 16px;
+	font-size:16px;
+}
+.slider{
+	overflow:hidden;
+	float:left;
+	width:103%;
+}
+.strip{
+	top:50%;
+}
+.two-clumns{
+	margin-left:0;
+}
+.btn3{
+	margin-top:25px;
+}
+.foy{
+	width:228px;
+	margin:15px 25px;
+}
+}
+@media (max-width: 480px) {
+.dropfil, .club, .updates, .half, .green{
+	width:100%;
+}
+#ssp2{
+	width:94%;
+	padding-left:15px;
+}
+.pos, .updates{
+	width:100%;
+	margin-top:25px;
+}
+.btns{
+	margin-top:48%;
+}
+.btns li{
+	margin-right:6px;
+	margin-bottom:6px;
+}
+#ssp, #ssp2{
+	margin-left:0;
+}
+.field1{
+	width:78.6%;
+}
+.sep{
+	font-size:11px !important;
+	padding:10px !important;
+}
+.btn2{
+	font-size:11px;
+}
+.btn1{
+	padding:10px 12px;
+}
+.dropfil a{
+	padding:18px 16px;
+	font-size:16px;
+}
+.slider h2{
+	font-size:17px;
+}
+.slider{
+	overflow:hidden;
+	float:left;
+}
+.strip{
+	top:50%;
+}
+.two-clumns{
+	margin-left:0;
+}
+
+.carousel-control.right{
+	margin-right:10px;
+}
+.btn3{
+	margin-top:25px;
+}
+.foy{
+	width:228px;
+	margin:15px 25px;
+}
+}
