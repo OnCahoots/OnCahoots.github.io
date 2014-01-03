@@ -11,7 +11,7 @@
 <link rel="stylesheet" href="css/screen.css">
 <!--[if lt IE 9]><script src="js/vendor/html5-3.6-respond-1.1.0.min.js"></script><![endif]-->
 </head>
-<body style="background-color:#F7F7F7;">
+<body style="background:url(img/body-bg.png) repeat #f7f7f7 center top;">
   <div class="container" style="max-width:100%; overflow:hidden;">
 <div class="row">
   <div class="col-lg-2" style="padding:0;">
@@ -36,61 +36,50 @@
 </div><!--col-lg-2-->
 <div class="col-lg-6" id="ssp3">
   <div class="title">
-    <h1>Clubs</h1><p>Create Your Own Club <span>>></span></p>
-  </div><!--title-->
-  <div class="clubs-inner">
-    <h2>What kind of club are you looking for?</h2>
-    <ul class="btns2">
-      <li><button name="btn" class="btn">Arts</button></li>
-      <li><button name="btn" class="btn">Academic</button></li>
-      <li><button name="btn" class="btn">Alumni</button></li>
-      <li><button name="btn" class="btn">Health</button></li>
-      <li><button name="btn" class="btn">Gender</button></li>
-      <li><button name="btn" class="btn">Recreational</button></li>
-      <li><button name="btn" class="btn">Union Board</button></li>
-      <li><button name="btn" class="btn">Media</button></li>
-      <li><button name="btn" class="btn">Student Govt.</button></li>
-      <li><button name="btn" class="btn">Performance</button></li>
-      <li><button name="btn" class="btn">Social</button></li>
-    </ul>
-  </div><!--clubs-inner-->
-  <div class="music">
-    <div class="music-img">
-      <img src="img/club-img.png" alt="Image" />
-    </div><!--music-img-->
-    <span><strong>Music Lovers >></strong></span>
-    <p>Summary about club here.</p>
-  </div><!--music--><div class="clearfix"></div>
-  <div class="music">
-    <div class="music-img">
-      <img src="img/club-img.png" alt="Image" />
-    </div><!--music-img-->
-    <span><strong>Photography >></strong></span>
-    <p>Summary about club here.</p>
-  </div><!--music--><div class="clearfix"></div>
-  <div class="clearfix"></div>
+    <h1>Settings</h1>
+  </div><!--title--><div class="clearfix"></div>
 </div><!--col-lg-6	-->
 <div class="col-lg-4" id="mar">
   <div id="ssp4">
     <div class="search"><input type="text" name="text" placeholder="Search" /><button name="btn"><img src="img/search-icon.png" alt="Image" /></button></div><!--search-->
-  <div class="info"  style="background:url(img/bg.png) repeat center top; position:relative; z-index:10000; width:100%; float:left">
-    <button name="btn" class="btn4">My Clubs</button>
-    <h2>Davidson Chicago</h2>
-    <img src="img/side-club.png" alt="Image" />
-    <p>You do not belong to any clubs! Click around to join clubs that interest you.(or some directional statement here)</p>
-  </div><!--info-->
   </div><!--ssp4-->
 </div><!--col-lg-4-->
+<div class="col-lg-offset-3 col-lg-4">
+  <div class="form2">
+    <h3>Edit User</h3>
+    <input type="text" name="text" placeholder="FIRST NAME" />
+    <input type="text" name="text" placeholder="LAST NAME" />
+    <select name="style2" id="selector">
+     <option>STUDENT</option>
+     <option>TEACHER</option>
+     <option>STUDENT</option>
+     <option>TEACHER</option>
+     <option>STUDENT</option>
+     <option>TEACHER</option>
+   </select>
+    <input type="text" name="text" placeholder="EMAIL" />
+    <input type="password" name="password" placeholder="PASSWORD" />
+    <p>Leave blank if you don't want to change it.</p>
+    <input type="password" name="password" placeholder="CONFIRM" />
+    <input type="password" name="password" placeholder="CURRENT PASSWORD" />
+    <p>We need your current password to confirm.</p>
+    <button name="btn" class="btn btn5">Update</button>
+    <p>Delete your account.<br /><br /><br /><span>To edit your profile information,</span><br /><a href="javascript:void(0);">CLICK HERE.</a></p>
+  </div><!--form2-->
+</div><!--col-lg-3-->
+<div class="col-lg-offset-4"></div><!--col-lg-offset-4-->
 </div><!--row--><div class="clearfix"></div>
 </div>
 <script src="js/vendor/jquery-1.10.1.min.js"></script>
 <script src="js/vendor/bootstrap.min.js"></script>
+<script src="js/jquery-gentleSelect.js"></script>
 <script src="js/main.js"></script>
 <script>
 $(document).ready(function(){
 	$('.selectyze2').Selectyze({
 		theme : 'mac'
 	});
+	$('#selector').gentleSelect(); // apply gentleSelect with default options
 });
 </script>
 </body>
