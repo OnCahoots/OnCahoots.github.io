@@ -227,4 +227,7 @@ div.fancy-select div.trigger{
 .paragraph2 p{
 	width:100%;
 }
+.events-list li span{
+	padding-bottom:20px;
+}
 }
