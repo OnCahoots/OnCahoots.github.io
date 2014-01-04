@@ -43,6 +43,9 @@
 .pos{
 	width:105%;
 }
+.com-name{
+	margin-bottom:0;
+}
 }
 @media (max-width: 767px) {
 .dropfil, .club, .updates, .half, .green{
@@ -117,6 +120,9 @@
 .pos2 ul{
 	width:78%;
 	margin-left:10px;
+}
+.tiffny{
+	width:100%;
 }
 
 }
@@ -229,5 +235,29 @@ div.fancy-select div.trigger{
 }
 .events-list li span{
 	padding-bottom:20px;
+}
+.tiffny{
+	width:100%;
+	text-align:center;
+}
+.nots2 small{
+	margin-top:2px;
+}
+.nots2 strong{
+	font-size:22px;
+}
+.nots2, .comment-box p{
+	font-size:12px;
+}
+.com-title{
+	text-align:center;
+}
+.title h1{
+	font-size:28px;
+}
+.tif-img{
+	float:none;
+	display:block;
+	margin:0 auto;
 }
 }
