@@ -46,6 +46,41 @@
 .com-name{
 	margin-bottom:0;
 }
+.modal-dialog{
+	width:95%;
+}
+.mod5{
+	width:95%;
+}
+.mod5 .carousel-control{
+	top:32%;
+}
+.mod5 .left{
+	left:-20px;
+}
+.mod5 .right{
+	right:-25px;
+
+}
+.cap{
+	width:100%;
+}
+.forms .half{
+	width:100%;
+}
+.forms .half label, .ne{
+	width:100%;
+	text-align:left;
+}
+.forms .half input{
+	width:100%;
+}
+.texta{
+	width:100%;
+}
+.half .gentleselect-label{
+	float:left !important;
+}
 }
 @media (max-width: 767px) {
 .dropfil, .club, .updates, .half, .green{
@@ -124,7 +159,59 @@
 .tiffny{
 	width:100%;
 }
+.eboard h3{
+	width:100%;
+	text-align:center;
+}
+.we{
+	width:100%;
+	float:left;
+	text-align:center;
+}
+.we li{
+	width:30%;
+}
+.we li a{
+	float:none;
+}
+.members{
+	height:auto;
+}
+.modal-dialog{
+	width:95%;
+}
+.mod5{
+	width:95%;
+}
+.mod5 .carousel-control{
+	top:32%;
+}
+.mod5 .left{
+	left:-20px;
+}
+.mod5 .right{
+	right:-25px;
 
+}
+.cap{
+	width:100%;
+}
+.forms .half{
+	width:100%;
+}
+.forms .half label, .ne{
+	width:100%;
+	text-align:left;
+}
+.forms .half input{
+	width:100%;
+}
+.texta{
+	width:100%;
+}
+.half .gentleselect-label{
+	float:left !important;
+}
 }
 @media (max-width: 480px) {
 .dropfil, .club, .updates, .half, .green{
@@ -259,5 +346,84 @@ div.fancy-select div.trigger{
 	float:none;
 	display:block;
 	margin:0 auto;
+}
+.btn9, .btn10{
+	width:100%;
+	margin-left:0;
+}
+.sub-nav li a{
+	font-size:12px;
+	padding:12px;
+}
+.sub-nav{
+	padding-left:0;
+}
+.sub-com{
+	margin-left:20px;
+}
+.sem{
+	height:140px;
+	text-align:center;
+}
+.sem .selectBox{
+	float:none !important;
+	width:46%;
+}
+
+.mod4{
+	margin:10px 0;
+}
+.eboard h3{
+	width:100%;
+	text-align:center;
+}
+.we{
+	width:100%;
+	float:left;
+	text-align:center;
+}
+.we li{
+	width:30%;
+}
+.we li a{
+	float:none;
+}
+.members{
+	height:auto;
+}
+.modal-dialog{
+	width:95%;
+}
+.mod5{
+	width:95%;
+}
+.mod5 .carousel-control{
+	top:32%;
+}
+.mod5 .left{
+	left:-20px;
+}
+.mod5 .right{
+	right:-25px;
+
+}
+.cap{
+	width:100%;
+}
+.forms .half{
+	width:100%;
+}
+.forms .half label, .ne{
+	width:100%;
+	text-align:left;
+}
+.forms .half input{
+	width:100%;
+}
+.texta{
+	width:100%;
+}
+.half .gentleselect-label{
+	margin-right:-20px;
 }
 }
