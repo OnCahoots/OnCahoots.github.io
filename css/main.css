@@ -1241,6 +1241,8 @@ span.selectOption:hover {
 	margin-top:20px;
 }
 .lists li button{
+	z-index:1000;
+	position:relative;
 	float:right;
 	margin-right:30px;
 	margin-top:30px;
@@ -1331,6 +1333,7 @@ span.selectOption:hover {
 	float:left;
 	clear:left;
 	color:#444;
+	position:relative;
 }
 .events-list li strong{
 	font-weight:normal;
@@ -2315,4 +2318,33 @@ span.selectOption:hover {
 	border:none;
 	background-color:#EBEBEB;
 	margin-left:15px;
+}
+.ssy{
+}
+.ssys{
+	position:relative;
+	float:left;
+	width:100%;
+	left:0;
+	min-height:104px;
+	opacity:0.9;
+	background-color:#a1e9c9;
+	position:absolute;
+	top:0;
+	display:inline-block;
+}
+.ssys small{
+	font-size:14px;
+	width:66%;
+	float:left;
+	margin:20px 0 0 20px;
+}
+.lists li{
+	position:relative;
+}
+.lists li .ssys{
+	display:none;
+}
+.lists li:hover .ssys{
+	display:block;
 }
