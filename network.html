@@ -40,26 +40,75 @@
   </div><!--title-->
   <div class="user-profile">
     <a href="javascript:void(0);" class="pro-pic">My Name <span>'07</span></a>
-    <p>Hi! My name is <a href="javascript:void(0);">Jane Smith</a>. I am a/an <a href="javascript:void(0);">Business Major</a> and <a href="javascript:void(0);">Double Major</a> at <a href="javascript:void(0);">Davidson College</a>. I will graduate in <a href="javascript:void(0);">2015</a>. My current city is <a href="javascript:void(0);">City Name</a>. Here is additional info that Jane wanted to add to her intro paragraph. Depending on how long it could scroll down.</p>
+    <p>Hi! My name is <input type="text" class="edtitor" /><a href="javascript:void(0);" class="text1">Jane Smith</a>. I am a/an <input type="text" class="edtitor2"><a href="javascript:void(0);" class="text22">Business Major</a> and <input type="text" class="edtitor3"><a href="javascript:void(0);" class="text3">Double Major</a> at <input type="text" class="edtitor4"><a href="javascript:void(0);" class="text4">Davidson College</a>. I will graduate in <input type="text" class="edtitor5"><a href="javascript:void(0);" class="text5">2015</a>. My current city is <input type="text" class="edtitor6"><a href="javascript:void(0);" class="text6">City Name</a>.</p>
     <div class="pos2">
-      <ul>
-        <li><a href="javascript:void(0);">Resume</a></li>
-        <li><a href="javascript:void(0);">Portfolio</a></li>
-        <li><a href="javascript:void(0);">FAQs &amp; Contact Requirements</a></li>
+      <ul class="tabs">
+        <li><a href="#tab1" class="active2">Resume</a></li>
+        <li><a href="#tab2">Portfolio</a></li>
+        <li><a href="#tab3">FAQs &amp; Contact Requirements</a></li>
       </ul>
-      <a href="javascript:void(0);" class="edit">Edit <i><img src="img/edit-icon.png" alt="Image" /></i></a>
+      <a href="javascript:void(0);" class="edit" id="edt">Edit <i><img src="img/edit-icon.png" alt="Image" /></i></a>
     </div><!--pos2-->
   </div><!--user-profile-->
   <div class="clearfix"></div>
+  <div class="tab_container">
+  <div id="tab1" class="tab_content">
   <div class="paragraph">
-    <div class="title2"><h4>Education <span>Skills &amp; Interests</span></h4><i><img src="img/small-curve.png" alt="Image" /></i></div><!--title2-->
-    <p>I graduated from <strong>COLLAGE NAME</strong> in <strong>YEAR</strong>.<br />I received my <strong>DEGRREE NAME</strong> in <strong>MAJOR</strong>.</p>
+    <div class="title2">
+    <ul class="tabs2">
+      <h4><li class="active22"><a href="#tab11">Education</a></li> <li><span><a href="#tab22">Skills &amp; Interests</a></span></span></h4> <button name="btn" class="btnss same">Save Changes</button><i><img src="img/small-curve.png" alt="Image" /></i></ul></div><!--title2-->
+    <div class="tab_container">
+    <div id="tab11" class="tab_content2">
+    <p style="padding-bottom:0;">I graduated from <input type="text" class="edtitor7"><a href="javascript:void(0);" class="text7"><strong>COLLAGE NAME</strong></a> in <input type="text" class="edtitor8"><a href="javascript:void(0);" class="text8"><strong>YEAR</strong></a>.<br />I received my <input type="text" class="edtitor9"><a href="javascript:void(0);" class="text9"><strong>DEGRREE NAME</strong></a> in <input type="text" class="edtitor1a" /><a href="javascript:void(0);" class="text1a"><strong>MAJOR</strong></a>.</p><div class="area"></div><div class="clearfix"></div>
+    <button name="btn" class="btnss same chn button">Add</button>
   <div class="clearfix"></div>
   </div><!--paragraph-->
-  <div class="paragraph2">
-    <div class="title3"><h4>Experience</h4><i><img src="img/large-curve.png" alt="Image" /></i></div><!--title3-->
-    <p><span>ABC Company</span><br /><br />I worked as a <span>XYZ Manager</span> from <span>Novermber 2009</span> to <span>November 2013</span>.<br /> <i>Additional Description of your position at this company as you wrote it. Click edit to change.</i><br /><br /><br /><span>DEF Company</span><br /><br />I worked as a <span>XYZ Manager</span> from <span>Novermber 2009</span> to <span>November 2013</span>.<br /> <i>Additional Description of your position at this company as you wrote it. Click edit to change.</i></p>
+  </div><!--tab_content2-->
+      <div id="tab22" class="tab_content2">
+        <div class="paragraph2">
+        <p style="font-size:17px;">I am skilled at <input type="text" class="edtitor6a"><a href="javascript:void(0);" class="text6a"><strong>HTML5</strong></a> , <input type="text" class="edtitor7a"><a href="javascript:void(0);" class="text7a"><strong>CSS3</strong></a> and <input type="text" class="edtitor8a"><a href="javascript:void(0);" class="text8a"><strong>Bootstrap</strong></a><br /><br />I am interested in <input type="text" class="edtitor9a"><a href="javascript:void(0);" class="text9a"><strong>Cricket</strong></a> , <input type="text" class="edtitor1b"><a href="javascript:void(0);" class="text1b"><strong>Web</strong></a> and <input type="text" class="edtitor2b"><a href="javascript:void(0);" class="text2b"><strong>Again Cricket</strong></a></p><div class="area2"></div><div class="clearfix"></div>
+    <button name="btn" class="btnss same chn button2">Add</button>
+      <div class="clearfix"></div>
+      </div><!--paragraph-->
+      </div><!--tab_content2-->
+  </div><!--tab_container-->
+  <div class="paragraph2" style="float:left;">
+    <div class="title3"><h4>Experience</h4><button name="btn" class="btnss same" style="margin-top:20px;">Save Changes</button><i><img src="img/large-curve.png" alt="Image" /></i></div><!--title3-->
+    <p><input type="text" class="edtitor2a"><a href="javascript:void(0);" class="text2a"><span>ABC Company</span></a><br /><br />I worked as a <input type="text" class="edtitor3a"><a href="javascript:void(0);" class="text3a"><span>XYZ Manager</span></a> from <input type="text" class="edtitor4a"><a href="javascript:void(0);" class="text4a"><span>Novermber 2009</span></a> to <input type="text" class="edtitor5a"><a href="javascript:void(0);" class="text5a"><span>November 2013</span></a>.<br /> <i>Additional Description of your position at this company as you wrote it. Click edit to change.</i><br /><br /><br /></p><div class="area3"></div><div class="clearfix"></div>
+    <button name="btn" class="btnss same chn button3">Add</button>
   </div><!--paragraph2-->
+  </div><!--tab_content-->
+  <div id="tab2" class="tab_content">
+    Portfolio
+  </div><!--tab_content-->
+  <div id="tab3" class="tab_content">
+    <div class="paragraph">
+    <div class="title2"><h4>FAQs</h4></div><!--title2-->
+    <div id="carousel-example-generic" class="carousel slide car2" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="item active">
+          <p><span>question here?</span><br />Answer to first FAQ. Lorem ipsum.<br /><br /><span>question here?</span><br />Answer to first FAQ. Lorem ipsum cadillIpsum dolor sit amet, ectetuer adi aiscing elit, sed diam nonummy. Lorem ipsum cadillIpsum dolor sit amet, ectetuer adi aiscing elit, sed diam nonummy.</p>
+        </div><!--item-->
+        <div class="item">
+          <p><span>question here?</span><br />Answer to first FAQ. Lorem ipsum.<br /><br /><span>question here?</span><br />Answer to first FAQ. Lorem ipsum cadillIpsum dolor sit amet, ectetuer adi aiscing elit, sed diam nonummy. Lorem ipsum cadillIpsum dolor sit amet, ectetuer adi aiscing elit, sed diam nonummy.</p>
+        </div><!--item-->
+        <div class="item">
+          <p><span>question here?</span><br />Answer to first FAQ. Lorem ipsum.<br /><br /><span>question here?</span><br />Answer to first FAQ. Lorem ipsum cadillIpsum dolor sit amet, ectetuer adi aiscing elit, sed diam nonummy. Lorem ipsum cadillIpsum dolor sit amet, ectetuer adi aiscing elit, sed diam nonummy.</p>
+        </div><!--item-->
+      </div><!--carousel-inner-->
+      <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev"><img src="img/lefts.png" alt="Image" /></a>
+      <a class="right carousel-control" href="#carousel-example-generic" data-slide="next"><img src="img/rights.png" alt="Image" /></a>
+    </div><!--carousel-->
+  <div class="clearfix"></div>
+  </div><!--paragraph-->
+  <div class="paragraph2 ss2">
+    <div class="title2"><h4>Contact Requirements</h4></div><!--title2-->
+    <p><span>CadillIpsum</span> dolor sit amet, ectetuer adi aiscing elit, sed diam nonummy. <br /><br />Lorem dolor ipsum <span>CadillIpsum CadillIpsum</span> antu sit amet, consectetuer adipiscing.<br /><br />CadillIpsum dolor sit amet, <span>ectuer dipiscing</span> elit, sed diam nonummy. <br />Lorem dolor sit amet, consectetuer adipiscing.</p>
+  <div class="clearfix"></div>
+  </div><!--paragraph2-->
+  <div class="clearfix"></div>	
+  </div><!--tab_content-->
+  </div><!--tab_container-->
   <div class="clearfix"></div>
 </div><!--col-lg-6	-->
 <div class="col-lg-4" id="mar">
@@ -87,9 +136,159 @@
 <script src="js/main.js"></script>
 <script>
 $(document).ready(function(){
+var i = 0;
+var remove = true; // added this 
+$('.button').click(function(e) {
+    $('<input type="text" />').attr({
+        'id' : i
+    }).addClass('circle').css({
+    }).appendTo('.area');
+    i++;
+});
+
+$('.area').on('click','.circle',function (){ // corrected spelling
+    if(remove){
+        $(this).remove();
+    } else {
+        //just to see if it was clicked
+    }
+});
+var i = 0;
+var remove = true; // added this 
+$('.button2').click(function(e) {
+    $('<input type="text" />').attr({
+        'id' : i
+    }).addClass('circle').css({
+    }).appendTo('.area2');
+    i++;
+});
+
+$('.area2').on('click','.circle',function (){ // corrected spelling
+    if(remove){
+        $(this).remove();
+    } else {
+        //just to see if it was clicked
+    }
+});
+var i = 0;
+var remove = true; // added this 
+$('.button3').click(function(e) {
+    $('<input type="text" />').attr({
+        'id' : i
+    }).addClass('circle').css({
+    }).appendTo('.area3');
+    i++;
+});
+
+$('.area3').on('click','.circle',function (){ // corrected spelling
+    if(remove){
+        $(this).remove();
+    } else {
+        //just to see if it was clicked
+    }
+});
 	$('.selectyze2').Selectyze({
 		theme : 'mac'
 	});
+$("#edt").click(function(){
+	if($('.same').css('display')=='block')
+	{
+		$('.same').css('display', 'none');
+	}
+	else
+	{
+		$('.same').css('display', 'block');
+	}
+});
+$(".tab_content").hide(); //Hide all content
+	$("ul.tabs li:first a").addClass("active2").show(); //Activate first tab
+	$(".tab_content:first").show(); //Show first tab content
+	
+	//On Click Event
+	$("ul.tabs li").click(function() {
+		$("ul.tabs li a").removeClass("active2"); //Remove any "active" class
+		$(this).addClass("active2"); //Add "active" class to selected tab
+		$(".tab_content").hide(); //Hide all tab content
+		var activeTab = $(this).find("a").attr("href"); //Find the rel attribute value to identify the active tab + content
+		$(activeTab).fadeIn(); //Fade in the active content
+		return false;
+	});
+	$(".tab_content2").hide(); //Hide all content
+	$("ul.tabs2 li:first a").addClass("active22").show(); //Activate first tab
+	$(".tab_content2:first").show(); //Show first tab content
+	
+	//On Click Event
+	$("ul.tabs2 li").click(function() {
+		$("ul.tabs2 li").removeClass("active22"); //Remove any "active" class
+		$(this).addClass("active22"); //Add "active" class to selected tab
+		$(".tab_content2").hide(); //Hide all tab content
+		var activeTab = $(this).find("a").attr("href"); //Find the rel attribute value to identify the active tab + content
+		$(activeTab).fadeIn(); //Fade in the active content
+		return false;
+	});
+$("#edt").click(function() {
+   $(".edtitor").val(
+       $(".text1").hide().text()
+   ).show();
+   $(".edtitor2").val(
+       $(".text22").hide().text()
+   ).show();
+   $(".edtitor3").val(
+       $(".text3").hide().text()
+   ).show();
+   $(".edtitor4").val(
+       $(".text4").hide().text()
+   ).show();
+   $(".edtitor5").val(
+       $(".text5").hide().text()
+   ).show();
+   $(".edtitor6").val(
+       $(".text6").hide().text()
+   ).show();
+   $(".edtitor7").val(
+       $(".text7").hide().text()
+   ).show();
+   $(".edtitor8").val(
+       $(".text8").hide().text()
+   ).show();
+   $(".edtitor9").val(
+       $(".text9").hide().text()
+   ).show();
+   $(".edtitor1a").val(
+       $(".text1a").hide().text()
+   ).show();
+   $(".edtitor2a").val(
+       $(".text2a").hide().text()
+   ).show();
+   $(".edtitor3a").val(
+       $(".text3a").hide().text()
+   ).show();
+   $(".edtitor4a").val(
+       $(".text4a").hide().text()
+   ).show();
+   $(".edtitor5a").val(
+       $(".text5a").hide().text()
+   ).show();
+   $(".edtitor6a").val(
+       $(".text6a").hide().text()
+   ).show();
+   $(".edtitor7a").val(
+       $(".text7a").hide().text()
+   ).show();
+   $(".edtitor8a").val(
+       $(".text8a").hide().text()
+   ).show();
+   $(".edtitor9a").val(
+       $(".text9a").hide().text()
+   ).show();
+   $(".edtitor1b").val(
+       $(".text1b").hide().text()
+   ).show();
+   $(".edtitor2b").val(
+       $(".text2b").hide().text()
+   ).show();
+});
+
 });
 </script>
 </body>
