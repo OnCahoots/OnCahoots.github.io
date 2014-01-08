@@ -212,6 +212,9 @@
 .half .gentleselect-label{
 	float:left !important;
 }
+.spo{
+	left:28%;
+}
 }
 @media (max-width: 480px) {
 .dropfil, .club, .updates, .half, .green{
@@ -425,5 +428,26 @@ div.fancy-select div.trigger{
 }
 .half .gentleselect-label{
 	margin-right:-20px;
+}
+.search-detail{
+	text-align:center;
+}
+.search-detail h3{
+	float:none;
+}
+.empty .tabsx{
+	margin-bottom:15px;
+}
+.paddings{
+	text-align:center;
+}
+.csthumb{
+	float:none;
+	text-align:center;
+	margin:0 auto;
+	margin-bottom:10px;
+}
+.spo{
+	left:30%;
 }
 }
