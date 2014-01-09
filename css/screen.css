@@ -215,6 +215,9 @@
 .spo{
 	left:28%;
 }
+.mod a{
+	padding:0;
+}
 }
 @media (max-width: 480px) {
 .dropfil, .club, .updates, .half, .green{
@@ -239,7 +242,7 @@
 	margin-left:0;
 }
 .field1{
-	width:78.6%;
+	width:78%;
 }
 .sep{
 	font-size:11px !important;
@@ -449,5 +452,8 @@ div.fancy-select div.trigger{
 }
 .spo{
 	left:30%;
+}
+.mod a{
+	padding:0;
 }
 }
