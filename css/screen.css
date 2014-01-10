@@ -506,4 +506,21 @@ div.fancy-select div.trigger{
 .logs input{
 	background-color:#CCC;
 }
+.lhs input{
+	background-color:#FFF;
+}
+.lhs i{
+	width:100%;
+	text-align:center;
+	margin:10px 0;
+}
+.bns{
+	width:100%;
+}
+.lhs{
+	margin-top:-10px;
+}
+#tab1q .half, #tab2q .half, #tab3q .half{
+	min-height:0;
+} 
 }

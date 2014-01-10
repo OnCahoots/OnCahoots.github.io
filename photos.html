@@ -45,49 +45,60 @@
     <!--col-lg-2-->
     <div class="col-lg-6" id="ssp3">
       <div class="title">
-         <h1>Clubs</h1><p><a href="javascript:void(0);" data-toggle="modal" data-target="#myModal3">Create Your Own Club</a> <span>>></span></p>
-    <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
-                  <h4 class="modal-title" id="myModalLabel">Create Club</h4>
-                </div><!--modal-header-->
-                <div class="modal-body">
-                  <form class="forms">
-                    <div class="half">
-                      <label>Club Name</label><input type="text" name="text" />
-                      <label>Private</label>
-                      <select name="style2" id="selector">
-						<option>Yes, this club is private</option>
-						<option>No, this club is not private</option>
-						<option>Yes, this club is private</option>
-						<option>No, this club is not private</option>
-						<option>Yes, this club is private</option>
-						<option>No, this club is not private</option>
-					  </select>
-                    </div><!--half-->
-                    
-                    <div class="half">
-                      <label>Category</label>
-                      <select name="style2" id="selector2">
-						<option>Academic</option>
-						<option>Non Academic</option>
-						<option>Academic</option>
-						<option>Non Academic</option>
-						<option>Academic</option>
-						<option>Non Academic</option>
-					  </select>
-                      <label>&nbsp;</label><button name="btn" class="btnx">Choose File</button>
-                    </div><!--half--><div class="clearfix"></div>
-                    <label class="ne">Description</label><textarea class="texta"></textarea>
-                    <button name="btn" class="btng">Create Club</button>
-                  </form>
+        <h1>Clubs</h1>
+        <p><a href="javascript:void(0);" data-toggle="modal" data-target="#myModal3">Create Your Own Club</a> <span>>></span></p>
+        <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                <h4 class="modal-title" id="myModalLabel">Create Club</h4>
+              </div>
+              <!--modal-header-->
+              <div class="modal-body">
+                <form class="forms">
+                  <div class="half">
+                    <label>Club Name</label>
+                    <input type="text" name="text" />
+                    <label>Private</label>
+                    <select name="style2" id="selector">
+                      <option>Yes, this club is private</option>
+                      <option>No, this club is not private</option>
+                      <option>Yes, this club is private</option>
+                      <option>No, this club is not private</option>
+                      <option>Yes, this club is private</option>
+                      <option>No, this club is not private</option>
+                    </select>
+                  </div>
+                  <!--half-->
+                  <div class="half">
+                    <label>Category</label>
+                    <select name="style2" id="selector2">
+                      <option>Academic</option>
+                      <option>Non Academic</option>
+                      <option>Academic</option>
+                      <option>Non Academic</option>
+                      <option>Academic</option>
+                      <option>Non Academic</option>
+                    </select>
+                    <label>&nbsp;</label>
+                    <button name="btn" class="btnx">Choose File</button>
+                  </div>
+                  <!--half-->
+                  <div class="clearfix"></div>
+                  <label class="ne">Description</label>
+                  <textarea class="texta"></textarea>
+                  <button name="btn" class="btng">Create Club</button>
+                </form>
                 <div class="clearfix"></div>
-                </div><!--modal-body-->
-              </div><!--modal-content-->
-            </div><!--modal-dialog-->
-          </div><!--modal-->
+              </div>
+              <!--modal-body-->
+            </div>
+            <!--modal-content-->
+          </div>
+          <!--modal-dialog-->
+        </div>
+        <!--modal-->
       </div>
       <!--title-->
       <div class="run-club" style="background:url(img/running-club-img.png) no-repeat; height:320px;">
@@ -104,66 +115,109 @@
       </ul>
       <div class="members" style="padding:0; float:left; width:100%;">
         <div class="music" style="margin-bottom:30px;">
-    	  <p>Album Title Here.</p>
-    	  <div class="music-img"><a href="javascript:void(0);" data-toggle="modal" data-target="#myModal"><img src="img/club-img.png" alt="Image" /></a></div><!--music-img-->
+          <p>Album Title Here.</p>
+          <div class="music-img"><a href="javascript:void(0);" data-toggle="modal" data-target="#myModal"><img src="img/club-img.png" alt="Image" /></a></div>
+          <!--music-img-->
           <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
             <div class="modal-dialog">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
                   <h4 class="modal-title" id="myModalLabel">Album Title Here</h4>
-                </div><!--modal-header-->
+                </div>
+                <!--modal-header-->
                 <div class="modal-body">
                   <div id="carousel-example-generic" class="carousel slide mod5" data-ride="carousel">
                     <div class="carousel-inner">
-                      <div class="item active"><img src="img/running-club-img.png" alt="Image"></div><!--item-->
-                      <div class="item"><img src="img/running-club-img.png" alt="Image"></div><!--item-->
-                      <div class="item"><img src="img/running-club-img.png" alt="Image"></div><!--item-->
-                      <div class="item"><img src="img/running-club-img.png" alt="Image"></div><!--item-->
-                    </div><!--carousel-inner-->
-                    <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev"><img src="img/slider-left.png" alt="Image" /></a>
-                    <a class="right carousel-control" href="#carousel-example-generic" data-slide="next"><img src="img/slider-right.png" alt="Image" /></a>
-                    <p>Photo caption here</p><br /><br />
-                  </div><!--carousel-->
+                      <div class="item active"><img src="img/running-club-img.png" alt="Image"></div>
+                      <!--item-->
+                      <div class="item"><img src="img/running-club-img.png" alt="Image"></div>
+                      <!--item-->
+                      <div class="item"><img src="img/running-club-img.png" alt="Image"></div>
+                      <!--item-->
+                      <div class="item"><img src="img/running-club-img.png" alt="Image"></div>
+                      <!--item-->
+                    </div>
+                    <!--carousel-inner-->
+                    <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev"><img src="img/slider-left.png" alt="Image" /></a> <a class="right carousel-control" href="#carousel-example-generic" data-slide="next"><img src="img/slider-right.png" alt="Image" /></a>
+                    <p>Photo caption here</p>
+                    <br />
+                    <br />
+                  </div>
+                  <!--carousel-->
                   <div class="cap">
-                    <p><span>Post comments<br /><br />UserName</span> comment lorem Ipsum dolor sit amet, ectetuer adipiscing elit, sed diam nonummy. Lorem dolor sit amet, consect!<br /><br /> <span>UserName</span> comment lorem Ipsum dolor sit amet, ectetuer adipiscing elit, sed diam nonummy. Lorem dolor sit amet, consect!</p>
-                  </div><!--cap--><div class="clearfix"></div>
-                </div><!--modal-body-->
-              </div><!--modal-content-->
-            </div><!--modal-dialog-->
-          </div><!--modal-->
-  		</div><!--music--><div class="clearfix"></div>
+                    <p><span>Post comments<br />
+                      <br />
+                      UserName</span> comment lorem Ipsum dolor sit amet, ectetuer adipiscing elit, sed diam nonummy. Lorem dolor sit amet, consect!<br />
+                      <br />
+                      <span>UserName</span> comment lorem Ipsum dolor sit amet, ectetuer adipiscing elit, sed diam nonummy. Lorem dolor sit amet, consect!</p>
+                  </div>
+                  <!--cap-->
+                  <div class="clearfix"></div>
+                </div>
+                <!--modal-body-->
+              </div>
+              <!--modal-content-->
+            </div>
+            <!--modal-dialog-->
+          </div>
+          <!--modal-->
+        </div>
+        <!--music-->
+        <div class="clearfix"></div>
         <div class="music">
-    	  <p>Album Title Here.</p>
-    	  <div class="music-img"><a href="javascript:void(0);" data-toggle="modal" data-target="#myModal2"><img src="img/club-img.png" alt="Image" /></a></div><!--music-img-->
+          <p>Album Title Here.</p>
+          <div class="music-img"><a href="javascript:void(0);" data-toggle="modal" data-target="#myModal2"><img src="img/club-img.png" alt="Image" /></a></div>
+          <!--music-img-->
           <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
             <div class="modal-dialog">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
                   <h4 class="modal-title" id="myModalLabel">Album Title Here</h4>
-                </div><!--modal-header-->
+                </div>
+                <!--modal-header-->
                 <div class="modal-body">
                   <div id="carousel-example-generic" class="carousel slide mod5" data-ride="carousel">
                     <div class="carousel-inner">
-                      <div class="item active"><img src="img/running-club-img.png" alt="Image"></div><!--item-->
-                      <div class="item"><img src="img/running-club-img.png" alt="Image"></div><!--item-->
-                      <div class="item"><img src="img/running-club-img.png" alt="Image"></div><!--item-->
-                      <div class="item"><img src="img/running-club-img.png" alt="Image"></div><!--item-->
-                    </div><!--carousel-inner-->
-                    <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev"><img src="img/slider-left.png" alt="Image" /></a>
-                    <a class="right carousel-control" href="#carousel-example-generic" data-slide="next"><img src="img/slider-right.png" alt="Image" /></a>
-                    <p>Photo caption here</p><br /><br />
-                  </div><!--carousel-->
+                      <div class="item active"><img src="img/running-club-img.png" alt="Image"></div>
+                      <!--item-->
+                      <div class="item"><img src="img/running-club-img.png" alt="Image"></div>
+                      <!--item-->
+                      <div class="item"><img src="img/running-club-img.png" alt="Image"></div>
+                      <!--item-->
+                      <div class="item"><img src="img/running-club-img.png" alt="Image"></div>
+                      <!--item-->
+                    </div>
+                    <!--carousel-inner-->
+                    <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev"><img src="img/slider-left.png" alt="Image" /></a> <a class="right carousel-control" href="#carousel-example-generic" data-slide="next"><img src="img/slider-right.png" alt="Image" /></a>
+                    <p>Photo caption here</p>
+                    <br />
+                    <br />
+                  </div>
+                  <!--carousel-->
                   <div class="cap">
-                    <p><span>Post comments<br /><br />UserName</span> comment lorem Ipsum dolor sit amet, ectetuer adipiscing elit, sed diam nonummy. Lorem dolor sit amet, consect!<br /><br /> <span>UserName</span> comment lorem Ipsum dolor sit amet, ectetuer adipiscing elit, sed diam nonummy. Lorem dolor sit amet, consect!</p>
-                  </div><!--cap--><div class="clearfix"></div>
-                </div><!--modal-body-->
-              </div><!--modal-content-->
-            </div><!--modal-dialog-->
-          </div><!--modal-->
-  		</div><!--music--><div class="clearfix"></div>
-      </div><!--members-->
+                    <p><span>Post comments<br />
+                      <br />
+                      UserName</span> comment lorem Ipsum dolor sit amet, ectetuer adipiscing elit, sed diam nonummy. Lorem dolor sit amet, consect!<br />
+                      <br />
+                      <span>UserName</span> comment lorem Ipsum dolor sit amet, ectetuer adipiscing elit, sed diam nonummy. Lorem dolor sit amet, consect!</p>
+                  </div>
+                  <!--cap-->
+                  <div class="clearfix"></div>
+                </div>
+                <!--modal-body-->
+              </div>
+              <!--modal-content-->
+            </div>
+            <!--modal-dialog-->
+          </div>
+          <!--modal-->
+        </div>
+        <!--music-->
+        <div class="clearfix"></div>
+      </div>
+      <!--members-->
       <div class="clearfix"></div>
     </div>
     <!--col-lg-6	-->
@@ -171,8 +225,9 @@
       <div id="ssp4">
         <div class="search">
           <input type="text" name="text" placeholder="Search" />
-          <a href="search.html"><button name="btn"><img src="img/search-icon.png" alt="Image" /></button></a>
-        </div>
+          <a href="search.html">
+          <button name="btn"><img src="img/search-icon.png" alt="Image" /></button>
+          </a> </div>
         <!--search-->
         <div class="info" style="background:none; background-color:#FFF; padding:20px 0;">
           <div class="news-letter">
@@ -197,25 +252,30 @@
               <p>Here is the full newsletter story. The user will scroll down to read the
                 full story. When he reaches the end of the story, he will see an arrow
                 to take him back to "newsletter main." Lorem dolor sit amet, consec
-                tetuer adipiscing elit, sed diam nonummy.<br /><br />
+                tetuer adipiscing elit, sed diam nonummy.<br />
+                <br />
                 Here is the full newsletter story. The user will scroll down to read the
                 full story. When he reaches the end of the story, he will see an arrow
                 to take him back to "newsletter main." Lorem dolor sit amet, consec
                 tetuer adipiscing elit, sed diam nonummy. Lorem dolor sit amet,
-                consec tetuer adipiscing elit, sed diam nonummy.<br /><br />
+                consec tetuer adipiscing elit, sed diam nonummy.<br />
+                <br />
                 Dolor sit amet, consec tetuer adipiscing elit, sed diam nonummy.
                 Lorem dolor sit amet, consec tetuer adipiscing elit, sed diam non-Lorem dolor sit amet, consec tetuer adipiscing elit, sed diam nonummy.
                 Here is the full newsletter story. The user will scroll down to read the
                 full story. When he reaches the end of the story, he will see an arrow
                 to take him back to "newsletter main." Lorem dolor sit amet, consec
                 tetuer adipiscing elit, sed diam nonummy. Lorem dolor sit amet,
-                consec tetuer adipiscing elit, sed diam nonummy.<br /><br />
+                consec tetuer adipiscing elit, sed diam nonummy.<br />
+                <br />
                 Dolor sit amet, consec tetuer adipiscing elit, sed diam nonummy.
                 Lorem dolor sit amet, consec tetuer adipiscing elit, sed diam nonummy.
                 Lorem dolor sit amet, consec tetuer adipiscing elit, sed diam
-                nonummy.<br /><br /></p>
-                <img src="img/running-club-img.png" alt="Image" height="200" />
-                <button name="btn" class="btn8 pull-right" id="nsw">Go Back</button>
+                nonummy.<br />
+                <br />
+              </p>
+              <img src="img/running-club-img.png" alt="Image" height="200" />
+              <button name="btn" class="btn8 pull-right" id="nsw">Go Back</button>
             </div>
             <!--showa-->
           </div>
@@ -228,16 +288,20 @@
             <ul class="events-list mod3">
               <li class="light"><a href="events.html" class="evs"><strong>SUN 12.15</strong><span>
                 <h3>Event Title / Headline Here</h3>
-                Brief description / subhead here. <br />Click for more info.</span></a></li>
+                Brief description / subhead here. <br />
+                Click for more info.</span></a></li>
               <li class="dark"><a href="events.html" class="evs"><strong>SUN 12.15</strong><span>
                 <h3>Event Title / Headline Here</h3>
-                Brief description / subhead here. <br />Click for more info.</span></a></li>
+                Brief description / subhead here. <br />
+                Click for more info.</span></a></li>
               <li class="light"><a href="events.html" class="evs"><strong>SUN 12.15</strong><span>
                 <h3>Event Title / Headline Here</h3>
-                Brief description / subhead here. <br />Click for more info.</span></a></li>
+                Brief description / subhead here. <br />
+                Click for more info.</span></a></li>
               <li class="dark"><a href="events.html" class="evs"><strong>SUN 12.15</strong><span>
                 <h3>Event Title / Headline Here</h3>
-                Brief description / subhead here. <br />Click for more info.</span></a></li>
+                Brief description / subhead here. <br />
+                Click for more info.</span></a></li>
             </ul>
           </div>
           <!--calendar-->
