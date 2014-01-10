@@ -218,6 +218,26 @@
 .mod a{
 	padding:0;
 }
+.sectio2{
+	margin-top:260%;
+}
+.logo2, .tt, .shef, .centerx, #stri, #stri2, .pads{
+	width:100%;
+	text-align:center;
+	float:left;
+}
+.mod6{
+	width:80%; 
+}
+.logs{
+	margin-top:0;
+}
+.tabsq{
+	margin-top:-15px;
+}
+.logs input{
+	background-color:#CCC;
+}
 }
 @media (max-width: 480px) {
 .dropfil, .club, .updates, .half, .green{
@@ -455,5 +475,35 @@ div.fancy-select div.trigger{
 }
 .mod a{
 	padding:0;
+}
+.ddd .comment-box{
+	text-align:center;
+}
+.ddd .com-img, .ddd .com-name{
+	margin:0 auto;
+	width:100%;
+}
+.ddd, .comment-box p{
+	text-align:center;
+}
+.sectio2{
+	margin-top:290%;
+}
+.logo2, .tt, .shef, .centerx, #stri, #stri2, .pads{
+	width:100%;
+	text-align:center;
+	float:left;
+}
+.mod6{
+	width:80%; 
+}
+.logs{
+	margin-top:0;
+}
+.tabsq{
+	margin-top:-15px;
+}
+.logs input{
+	background-color:#CCC;
 }
 }

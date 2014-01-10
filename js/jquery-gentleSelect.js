@@ -22,7 +22,6 @@
 (function($) {
     
     var defaults = {
-        minWidth  : 291, // only applies if columns and itemWidth not set
         itemWidth : undefined,
         columns   : undefined,
         rows      : undefined,

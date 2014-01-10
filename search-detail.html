@@ -23,7 +23,7 @@
           <a class="logo" href="index.html"><img src="img/logo.png" alt="Image" /></a> </div><!--navbar-header-->
        <div class="navbar-collapse collapse">
          <ul class="nav navbar-nav">
-           <li class=""><a href="index.html"><i class="icon-same"><img src="img/college-icon.png" alt="Image" /></i>College</a></li>
+           <li class=""><a href="college.html"><i class="icon-same"><img src="img/college-icon.png" alt="Image" /></i>College</a></li>
            <li class=""><a href="clubs.html"><i class="icon-same margin10"><img src="img/clubs-icon.png" alt="Image" /></i>Clubs</a></li>
            <li class=""><a href="network.html"><i class="icon-same margin5"><img src="img/network-icon.png" alt="Image" /></i>Network</a></li>
            <li class=""><a href="communication.html"><i class="icon-same margin5"><img src="img/communication-icon.png" alt="Image" /></i>Communication</a></li>
@@ -65,60 +65,60 @@
         <div class="half">
           <div class="paddings">
             <a href="javascript:void(0);" class="csthumb"></a>
-            <h4>running club</h4><br />
+            <a href="running-club.html"><h4>running club</h4></a><br />
             <p>Members (52)<br />Claritas est etiam pr dynamicdfus, qui sequitur mutationem consuetudium lectorum.<br /><a href="javascript:void(0);">VIEW PAGE <span>>></span></a></p>
           </div><!--paddings-->
         </div><!--half-->
         <div class="half">
           <div class="paddings">
             <a href="javascript:void(0);" class="csthumb"></a>
-            <h4>running club</h4><br />
+            <a href="running-club.html"><h4>running club</h4></a><br />
             <p>Members (52)<br />Claritas est etiam pr dynamicdfus, qui sequitur mutationem consuetudium lectorum.<br /><a href="javascript:void(0);">VIEW PAGE <span>>></span></a></p>
           </div><!--paddings-->
         </div><!--half-->
         <div class="half">
           <div class="paddings">
             <a href="javascript:void(0);" class="csthumb"></a>
-            <h4>running club</h4><br />
+            <a href="running-club.html"><h4>running club</h4></a><br />
             <p>Members (52)<br />Claritas est etiam pr dynamicdfus, qui sequitur mutationem consuetudium lectorum.<br /><a href="javascript:void(0);">VIEW PAGE <span>>></span></a></p>
           </div><!--paddings-->
         </div><!--half-->
         <div class="half">
           <div class="paddings">
             <a href="javascript:void(0);" class="csthumb"></a>
-            <h4>running club</h4><br />
+            <a href="running-club.html"><h4>running club</h4></a><br />
             <p>Members (52)<br />Claritas est etiam pr dynamicdfus, qui sequitur mutationem consuetudium lectorum.<br /><a href="javascript:void(0);">VIEW PAGE <span>>></span></a></p>
           </div><!--paddings-->
         </div><!--half-->
         <div class="half">
           <div class="paddings">
             <a href="javascript:void(0);" class="csthumb"></a>
-            <h4>running club</h4><br />
+            <a href="running-club.html"><h4>running club</h4></a><br />
             <p>Members (52)<br />Claritas est etiam pr dynamicdfus, qui sequitur mutationem consuetudium lectorum.<br /><a href="javascript:void(0);">VIEW PAGE <span>>></span></a></p>
           </div><!--paddings-->
         </div><!--half-->
         <div class="half">
           <div class="paddings">
             <a href="javascript:void(0);" class="csthumb"></a>
-            <h4>running club</h4><br />
+            <a href="running-club.html"><h4>running club</h4></a><br />
             <p>Members (52)<br />Claritas est etiam pr dynamicdfus, qui sequitur mutationem consuetudium lectorum.<br /><a href="javascript:void(0);">VIEW PAGE <span>>></span></a></p>
           </div><!--paddings-->
         </div><!--half-->
         <div class="half">
           <div class="paddings">
             <a href="javascript:void(0);" class="csthumb"></a>
-            <h4>running club</h4><br />
+            <a href="running-club.html"><h4>running club</h4></a><br />
             <p>Members (52)<br />Claritas est etiam pr dynamicdfus, qui sequitur mutationem consuetudium lectorum.<br /><a href="javascript:void(0);">VIEW PAGE <span>>></span></a></p>
           </div><!--paddings-->
         </div><!--half-->
         <div class="half">
           <div class="paddings">
             <a href="javascript:void(0);" class="csthumb"></a>
-            <h4>running club</h4><br />
+            <a href="running-club.html"><h4>running club</h4></a><br />
             <p>Members (52)<br />Claritas est etiam pr dynamicdfus, qui sequitur mutationem consuetudium lectorum.<br /><a href="javascript:void(0);">VIEW PAGE <span>>></span></a></p>
           </div><!--paddings-->
         </div><!--half-->
-        <button name="btn" class="btn9 btnd">Start Over</button>
+        <a href="search.html"><button name="btn" class="btn9 btnd">Start Over</button></a>
         </div><!--con--><div class="clearfix"></div>
       </div><!--tab_content-->
       <div class="col-lg-offset-3 col-lg-5">
@@ -126,7 +126,13 @@
         <input type="text" name="text" placeholder="MAJOR" />
         <input type="text" name="text" placeholder="GRAD YEAR" />
         <input type="text" name="text" placeholder="LOCATION" />
-        <input type="text" name="text" placeholder="FIELD" />
+        <div class='selectBox'> <span class='selected'></span>
+      		  <div class="selectOptions" > 
+                <span class="selectOption" value="Option 1">FIELD</span> 
+        		<span class="selectOption" value="Option 2">DESIGNER</span> 
+        		<span class="selectOption" value="Option 3">DEVELOPER</span> 
+      		  </div><!--selectOptions-->
+			</div><!--selectBox-->
       </div><!--tab_content-->
       <div id="tab3x" class="tab_content"><br />
         <ul class="btns2 chn2">
@@ -161,6 +167,9 @@
 <script src="js/main.js"></script>
 <script>
 $(document).ready(function(){
+	$('.selectyze2').Selectyze({
+		theme : 'mac'
+	});
 	$('#datepicker').datepicker({
 		inline: true
 	});
