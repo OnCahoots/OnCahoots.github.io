@@ -60,9 +60,9 @@
                 <form class="forms">
                   <div class="half">
                     <label>*Title</label>
-                    <input type="text" name="text" />
+                    <input type="text" name="text" /><div class="clearfix"></div>
                     <label>Date</label>
-                    <input type="text" name="text" id="datepicker" />
+                    <input type="text" name="text" id="datepicker" /><div class="clearfix"></div>
                     <div class="den">
                       <label>*Time</label>
                       <select name="style2" id="selector2">
@@ -146,11 +146,11 @@
                         <option>10</option>
                         <option>11</option>
                         <option>12</option>
-                      </select>
+                      </select><div class="clearfix"></div>
                     </div>
                     <div class="clearfix"></div>
                     <label>Loaction</label>
-                    <input type="text" name="text" />
+                    <input type="text" name="text" /><div class="clearfix"></div>
                   </div>
                   <!--half-->
                   <div class="half">
@@ -163,10 +163,10 @@
                         <option>No, this club is not private</option>
                         <option>Yes, this club is private</option>
                         <option>No, this club is not private</option>
-                      </select>
+                      </select><div class="clearfix"></div>
                     </div>
                     <label>Image</label>
-                    <button name="btn" class="btnx">Choose File</button>
+                    <button name="btn" class="btnx">Choose File</button><div class="clearfix"></div>
                     <label>Club Event</label>
                     <div class="den2">
                       <select name="style2" id="selector5">
@@ -206,9 +206,9 @@
           <p><a href="javascript:void(0);"><<</a> December 15, 2013 <a href="javascript:void(0);">>></a></p>
         </div>
         <!--caltitle-->
-        <div class="session"> <a href="javascript:void(0);">Free Food</a> <a href="javascript:void(0);">Daily</a> <a href="javascript:void(0);">Weekly</a> <a href="javascript:void(0);" class="di">Monthly</a> </div>
+        <div class="session"> <a href="javascript:void(0);">Free Food</a> <a href="javascript:void(0);" class="nnaa">Daily</a> <a href="javascript:void(0);">Weekly</a> <a href="javascript:void(0);" class="di nna">Monthly</a> </div>
         <!--session-->
-        <ul class="events-list nna">
+        <ul class="events-list">
           <li class="light"><strong>SUN 12.15<br />
             10:00 am<br />
             Location Here</strong><span>
@@ -334,8 +334,13 @@ $(document).ready(function(){
 		theme : 'mac'
 	});
 $(".nna").on('click', function() {
-   $(".nna").hide();
+   $(".events-list").hide();
    $(".mon").show();
+   $(".di").css("color", "#00D689");
+});
+$(".nnaa").on('click', function() {
+   $(".mon").hide();
+   $(".events-list").show();
    $(".di").css("color", "#00D689");
 });
 $('#selector').gentleSelect(); // apply gentleSelect with default options

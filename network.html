@@ -90,6 +90,7 @@
             <!--title2-->
             <div class="tab_container">
               <div id="tab11" class="tab_content2">
+              <div class="circlee">
                 <p style="padding-bottom:0;">I graduated from
                   <input type="text" class="edtitor7">
                   <i class="text7"><strong>COLLAGE NAME</strong></i> in
@@ -99,11 +100,23 @@
                   <input type="text" class="edtitor9">
                   <i class="text9"><strong>DEGRREE NAME</strong></i> in
                   <input type="text" class="edtitor1a" />
-                  <i class="text1a"><strong>MAJOR</strong></i>.</p>
-                <textarea name="textarea" class="same texta2" placeholder="Additional description"></textarea>
+                  <i class="text1a"><strong>MAJOR</strong></i>.</p><textarea name="textarea" class="same texta2" placeholder="Additional description"></textarea>
                 <div class="clearfix"></div>
-                <div class="area"></div>
-                <button name="btn" class="same chn button"><img src="img/ads.png" alt="Image" /></button>
+                  </div>
+                  <div class="circlee" style="display:none;">
+                <p style="padding-bottom:0;">I graduated from
+                  <input type="text" class="edtitor7">
+                  <i class="text7"><strong>COLLAGE NAME</strong></i> in
+                  <input type="text" class="edtitor8">
+                  <i class="text8"><strong>YEAR</strong></i>.<br />
+                  I received my
+                  <input type="text" class="edtitor9">
+                  <i class="text9"><strong>DEGRREE NAME</strong></i> in
+                  <input type="text" class="edtitor1a" />
+                  <i class="text1a"><strong>MAJOR</strong></i>.</p><textarea name="textarea" class="same texta2" placeholder="Additional description"></textarea>
+                <div class="clearfix"></div>
+                  </div>
+                <button name="btn" class="same chn button" id="add"><img src="img/ads.png" alt="Image" /></button>
                 <div class="clearfix"></div>
               </div>
               <!--paragraph-->
@@ -111,6 +124,7 @@
             <!--tab_content2-->
             <div id="tab22" class="tab_content2">
               <div class="paragraph2">
+              <div class="circlee2">
                 <p style="font-size:17px;">I am skilled at
                   <input type="text" class="edtitor6a">
                   <i class="text6a"><strong>HTML5</strong></i> ,
@@ -126,9 +140,27 @@
                   <i class="text1b"><strong>Web</strong></i> and
                   <input type="text" class="edtitor2b">
                   <i class="text2b"><strong>Again Cricket</strong></i></p>
-                <div class="area2"></div>
                 <div class="clearfix"></div>
-                <button name="btn" class="same chn button"><img src="img/ads.png" alt="Image" /></button>
+                </div>
+                <div class="circlee2" style="display:none;">
+                <p style="font-size:17px;">I am skilled at
+                  <input type="text" class="edtitor6a">
+                  <i class="text6a"><strong>HTML5</strong></i> ,
+                  <input type="text" class="edtitor7a">
+                  <i class="text7a"><strong>CSS3</strong></i> and
+                  <input type="text" class="edtitor8a">
+                  <i class="text8a"><strong>Bootstrap</strong></i><br />
+                  <br />
+                  I am interested in
+                  <input type="text" class="edtitor9a">
+                  <i class="text9a"><strong>Cricket</strong></i> ,
+                  <input type="text" class="edtitor1b">
+                  <i class="text1b"><strong>Web</strong></i> and
+                  <input type="text" class="edtitor2b">
+                  <i class="text2b"><strong>Again Cricket</strong></i></p>
+                <div class="clearfix"></div>
+                </div>
+                <button name="btn" class="same chn button" id="add2"><img src="img/ads.png" alt="Image" /></button>
                 <div class="clearfix"></div>
               </div>
               <!--paragraph-->
@@ -136,11 +168,12 @@
             <!--tab_content2-->
           </div>
           <!--tab_container-->
-          <div class="paragraph2">
+          <div class="paragraph2" id="echo">
             <div class="title3">
               <h4>Experience</h4>
               <i><img src="img/large-curve.png" alt="Image" /></i></div>
             <!--title3-->
+            <div class="circlee3">
             <p>
               <input type="text" class="edtitor2a">
               <i class="text2a"><span>ABC Company</span></i><br />
@@ -156,10 +189,27 @@
               <br />
               <br />
             </p>
-            <div class="area3">
               <textarea name="textarea" class="same texta3" placeholder="Additional description"></textarea>
-              <button name="btn" class="same chn button" style="margin-left:0;"><img src="img/ads.png" alt="Image" /></button>
             </div>
+            <div class="circlee3" style="display:none;">
+            <p>
+              <input type="text" class="edtitor2a">
+              <i class="text2a"><span>ABC Company</span></i><br />
+              <br />
+              I worked as a
+              <input type="text" class="edtitor3a">
+              <i class="text3a"><span>XYZ Manager</span></i> from
+              <input type="text" class="edtitor4a">
+              <i class="text4a"><span>Novermber 2009</span></i> to
+              <input type="text" class="edtitor5a">
+              <i class="text5a"><span>November 2013</span></i>.<br />
+              Additional Description of your position at this company as you wrote it. Click edit to change.<br />
+              <br />
+              <br />
+            </p>
+              <textarea name="textarea" class="same texta3" placeholder="Additional description"></textarea>
+            </div>
+              <button name="btn" class="same chn button" id="add3" style="margin-left:0;"><img src="img/ads.png" alt="Image" /></button>
             <div class="clearfix"></div>
           </div>
           <!--paragraph2-->
@@ -302,56 +352,14 @@
 <script src="js/main.js"></script>
 <script>
 $(document).ready(function(){
-var i = 0;
-var remove = true; // added this 
-$('.button').click(function(e) {
-    $('<input type="text" />').attr({
-        'id' : i
-    }).addClass('circle').css({
-    }).appendTo('.area');
-    i++;
+$("#add").click(function() {
+    $(".circlee").show()
 });
-
-$('.area').on('click','.circle',function (){ // corrected spelling
-    if(remove){
-        $(this).remove();
-    } else {
-        //just to see if it was clicked
-    }
+$("#add2").click(function() {
+    $(".circlee2").show()
 });
-var i = 0;
-var remove = true; // added this 
-$('.button2').click(function(e) {
-    $('<input type="text" />').attr({
-        'id' : i
-    }).addClass('circle').css({
-    }).appendTo('.area2');
-    i++;
-});
-
-$('.area2').on('click','.circle',function (){ // corrected spelling
-    if(remove){
-        $(this).remove();
-    } else {
-        //just to see if it was clicked
-    }
-});
-var i = 0;
-var remove = true; // added this 
-$('.button3').click(function(e) {
-    $('<input type="text" />').attr({
-        'id' : i
-    }).addClass('circle').css({
-    }).appendTo('.area3');
-    i++;
-});
-
-$('.area3').on('click','.circle',function (){ // corrected spelling
-    if(remove){
-        $(this).remove();
-    } else {
-        //just to see if it was clicked
-    }
+$("#add3").click(function() {
+    $(".circlee3").show()
 });
 	$('.selectyze2').Selectyze({
 		theme : 'mac'

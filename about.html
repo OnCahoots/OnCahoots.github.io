@@ -46,7 +46,59 @@
     <div class="col-lg-6" id="ssp3">
       <div class="title">
         <h1>Clubs</h1>
-        <p>Create Your Own Club <span>>></span></p>
+        <p><a href="javascript:void(0);" data-toggle="modal" data-target="#myModal3">Create Your Own Club</a> <span>>></span></p>
+        <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                <h4 class="modal-title" id="myModalLabel">Create Club</h4>
+              </div>
+              <!--modal-header-->
+              <div class="modal-body">
+                <form class="forms" id="sops">
+                  <div class="half">
+                    <label>Club Name</label>
+                    <input type="text" name="text" /><div class="clearfix"></div>
+                    <label>Private</label>
+                    <select name="style2" id="selector">
+                      <option>Yes, this club is private</option>
+                      <option>No, this club is not private</option>
+                      <option>Yes, this club is private</option>
+                      <option>No, this club is not private</option>
+                      <option>Yes, this club is private</option>
+                      <option>No, this club is not private</option>
+                    </select>
+                  </div>
+                  <!--half-->
+                  <div class="half">
+                    <label>Category</label>
+                    <select name="style2" id="selector2">
+                      <option>Academic</option>
+                      <option>Non Academic</option>
+                      <option>Academic</option>
+                      <option>Non Academic</option>
+                      <option>Academic</option>
+                      <option>Non Academic</option>
+                    </select>
+                    <label>&nbsp;</label>
+                    <button name="btn" class="btnx">Choose File</button>
+                  </div>
+                  <!--half-->
+                  <div class="clearfix"></div>
+                  <label class="ne">Description</label>
+                  <textarea class="texta"></textarea>
+                  <button name="btn" class="btng">Create Club</button>
+                </form>
+                <div class="clearfix"></div>
+              </div>
+              <!--modal-body-->
+            </div>
+            <!--modal-content-->
+          </div>
+          <!--modal-dialog-->
+        </div>
+        <!--modal-->
       </div>
       <!--title-->
       <div class="run-club" style="background:url(img/running-club-img.png) no-repeat; height:320px;">
@@ -65,11 +117,11 @@
         <div class="eboard">
           <h3>eBoard</h3>
           <ul class="abo">
-            <li><a href="javascript:void(0);"><img src="img/profile-img.png" alt="Image" height="55" width="55" /></a> <strong>nik thomas</strong><small>Founder<br />
+            <li><a href="javascript:void(0);"><img src="img/profile-img.png" alt="Image" height="55" width="55" /></a> <strong><a href="javascript:void(0);">nik thomas</a></strong><small>Founder<br />
               Law 2014</small></li>
-            <li><a href="javascript:void(0);"><a href="javascript:void(0);"><img src="img/profile-img.png" alt="Image" height="55" width="55" /></a> <strong>nik thomas</strong><small>Founder<br />
+            <li><a href="javascript:void(0);"><a href="javascript:void(0);"><img src="img/profile-img.png" alt="Image" height="55" width="55" /></a> <strong><a href="javascript:void(0);">nik thomas</a></strong><small>Founder<br />
               Law 2014</small></li>
-            <li><a href="javascript:void(0);"><img src="img/profile-img.png" alt="Image" height="55" width="55" /></a> <strong>nik thomas</strong><small>Founder<br />
+            <li><a href="javascript:void(0);"><img src="img/profile-img.png" alt="Image" height="55" width="55" /></a> <strong><a href="javascript:void(0);">nik thomas</a></strong><small>Founder<br />
               Law 2014</small></li>
           </ul>
         </div>

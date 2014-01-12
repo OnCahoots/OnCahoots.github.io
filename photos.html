@@ -59,7 +59,7 @@
                 <form class="forms">
                   <div class="half">
                     <label>Club Name</label>
-                    <input type="text" name="text" />
+                    <input type="text" name="text" /><div class="clearfix"></div>
                     <label>Private</label>
                     <select name="style2" id="selector">
                       <option>Yes, this club is private</option>
@@ -115,7 +115,40 @@
       </ul>
       <div class="members" style="padding:0; float:left; width:100%;">
         <div class="music" style="margin-bottom:30px;">
-          <p>Album Title Here.</p>
+          <p>Album Title Here.</p><a href="javascript:void(0);" class="npost" data-toggle="modal" data-target="#myModal30">New Album >></a>
+          <div class="modal fade" id="myModal30" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                <h4 class="modal-title" id="myModalLabel">Create Album</h4>
+              </div>
+              <!--modal-header-->
+              <div class="modal-body">
+                <form class="forms">
+                  <div class="half">
+                    <label>Alb.Name</label>
+                    <input type="text" name="text" /><div class="clearfix"></div>
+                  </div>
+                  <!--half-->
+                  <div class="half">
+                    <label>&nbsp;</label>
+                    <button name="btn" class="btnx pull-left">Choose File</button>
+                  </div>
+                  <!--half-->
+                  <label class="ne wig">Description</label>
+                  <textarea class="texta"></textarea>
+                  <button name="btn" class="btng">Create Club</button>
+                </form>
+                <div class="clearfix"></div>
+              </div>
+              <!--modal-body-->
+            </div>
+            <!--modal-content-->
+          </div>
+          <!--modal-dialog-->
+        </div>
+        <!--modal-->
           <div class="music-img"><a href="javascript:void(0);" data-toggle="modal" data-target="#myModal"><img src="img/club-img.png" alt="Image" /></a></div>
           <!--music-img-->
           <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">

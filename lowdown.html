@@ -59,7 +59,7 @@
                 <form class="forms">
                   <div class="half">
                     <label>Club Name</label>
-                    <input type="text" name="text" />
+                    <input type="text" name="text" /><div class="clearfix"></div>
                     <label>Private</label>
                     <select name="style2" id="selector">
                       <option>Yes, this club is private</option>
@@ -114,7 +114,7 @@
         <li><a href="photos.html">Photos</a></li>
       </ul>
       <div class="cent" style="margin:0; background-color:#f7f7f7;">
-        <div class="post"> <a href="javascript(0);" class="npost">New Post <span>>></span></a>
+        <div class="post"> <a href="javascript:void(0);" class="npost">New Post <span>>></span></a>
           <ul class="lat-posts">
             <li class="light"> <a href="javascript:void(0);" class="img2"><img src="img/post-img.png" alt="Image" /></a>
               <h3><a href="network.html">Andy Howard</a></h3>
@@ -127,11 +127,11 @@
               <span>Lorem ipsum dolor sit amet consecteture.</span><br />
               <a href="javascript:void(0);" class="po-cm" id="hidShow">Post comment</a>
               <div class="sub-com"> <a href="javascript:void(0);" class="img2"><img src="img/post-img.png" width="60" height="60" alt="Image" /></a> <span><strong>USERNAME</strong> Lorem ipsum dolor sit amet consecteture. Lorem ipsum dolor sit amet consecteture. Lorem ipsum dolor sit amet consecteture. Lorem ipsum dolor sit amet consecteture.</span> </div>
-              <!--sub-com-->
+              <!--sub-com--><div class="clearfix"></div>
               <div class="sub-com"> <a href="javascript:void(0);" class="img2"><img src="img/post-img.png" width="60" height="60" alt="Image" /></a> <span><strong>USERNAME</strong> Lorem ipsum dolor sit amet consecteture. Lorem ipsum dolor sit amet consecteture. Lorem ipsum dolor sit amet consecteture. Lorem ipsum dolor sit amet consecteture.</span> </div>
-              <!--sub-com-->
+              <!--sub-com--><div class="clearfix"></div>
               <div class="sub-com"> <a href="javascript:void(0);" class="img2"><img src="img/post-img.png" width="60" height="60" alt="Image" /></a> <span><strong>USERNAME</strong> Lorem ipsum dolor sit amet consecteture. Lorem ipsum dolor sit amet consecteture. Lorem ipsum dolor sit amet consecteture. Lorem ipsum dolor sit amet consecteture.</span> </div>
-              <!--sub-com-->
+              <!--sub-com--><div class="clearfix"></div>
             </li>
             <li class="light"> <a href="javascript:void(0);" class="img2"><img src="img/post-img.png" alt="Image" /></a>
               <h3><a href="network.html">Andy Howard</a></h3>
@@ -163,6 +163,8 @@
               <br />
               <span>Lorem ipsum dolor sit amet consecteture.</span><br />
               <a href="javascript:void(0);" class="po-cm">Post comment</a> </li>
+              <li class="light"> <a href="javascript:void(0);" class="img2"><img src="img/wp.png" alt="Image" /></a><br />
+              <h3><a href="javascript:void(0);" id="edt"><input type="text" class="edtitor9b djs" /><small class="text9b chnd">Your thoughts belong here</small></a></h3>
           </ul>
         </div>
         <!--post-->
@@ -293,6 +295,11 @@ $(".hid").on('click', function() {
 $("#nsw").on('click', function() {
    $(".showa").hide();
    $(".hid").show();
+});
+$("#edt").click(function() {
+$(".edtitor9b").val(
+       $(".text9b").hide().text()
+   ).show();
 });
 });
 </script>

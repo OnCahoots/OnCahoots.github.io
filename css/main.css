@@ -46,9 +46,14 @@ li {
 	display:inline-block;
 	text-align:center;
 }
+.navbar-collapse{
+	height:100%;
+	float:left;
+}
 .navbar-nav {
 	width:100%;
 	float:left;
+	height:100%;
 	padding-bottom:30px;
 }
 .navbar .container {
@@ -60,6 +65,7 @@ li {
 	width:100%;
 	margin-top:15px;
 	text-align:center;
+	height:16.66%;
 }
 .collapse {
 	background-color:#e7e7e8;
@@ -520,7 +526,7 @@ li {
 }
 .DivSelectyze .selectyzeValue {
 	position:relative;
-	z-index:10;
+	z-index:1;
 	display:block;
 	text-decoration:none;
 	padding-top:10px;
@@ -1220,7 +1226,7 @@ span.selectOption:hover {
 	background-color:#c7c8ca;
 	border-radius:15px;
 	float:right;
-	margin-top:-5px;
+	margin-top:-20px;
 }
 .edit:hover, .edit:active, .edit:focus {
 	color:#02cd92;
@@ -1302,7 +1308,7 @@ span.selectOption:hover {
 	text-align:left;
 	text-align:left;
 	width:85%;
-	padding:30px;
+	padding:30px 0;
 }
 .paragraph2 p span i {
 	color:#00c088;
@@ -1415,6 +1421,7 @@ span.selectOption:hover {
 .session {
 	background-color:#E7E7E8;
 	width:100%;
+	margin-top:-9px;
 	height:40px;
 	text-align:center;
 }
@@ -1631,7 +1638,6 @@ span.selectOption:hover {
 	text-transform:uppercase;
 	color:#0cc389;
 	font-size:18px;
-	margin-top:20px;
 	display:inline-block;
 }
 .tiffny p {
@@ -2049,11 +2055,11 @@ span.selectOption:hover {
 	margin-left:1px;
 	margin-bottom:25px;
 }
-.mem li a {
+.onw {
 	float:left;
 	margin-right:8px;
 }
-.mem li strong {
+.mem li strong a{
 	display:block;
 	margin-top:15px;
 	color:#04c189;
@@ -2094,11 +2100,12 @@ span.selectOption:hover {
 	float:left;
 	margin-right:5px;
 }
-.abo li strong {
+.abo li strong a{
 	display:block;
-	margin-top:15px;
+	margin-top:10px;
+	width:54%;
 	color:#04c189;
-	font-size:13px;
+	font-size:12px;
 	font-weight:normal;
 	text-transform:uppercase;
 }
@@ -2237,19 +2244,17 @@ span.selectOption:hover {
 	margin-top:5px;
 	margin-bottom:30px;
 	width:25%;
+	float:left;
 }
 .forms .half input {
 	background-color:#EBEBEB;
 	border:none;
 	border-radius:0;
 	height:40px;
-	float:right;
+	float:left;
 	width:70%;
 	padding-left:15px;
 	margin-bottom:20px;
-}
-.half .gentleselect-label {
-	float:right !important;
 }
 .btnx {
 	border-radius:0;
@@ -2756,23 +2761,26 @@ span.selectOption:hover {
 	line-height:20px;
 	width:54.7%;
 	resize:none;
+	margin-top:-95px;
 	margin-right:20px;
 	background:#EBEBEB;
 	border:none;
 	height:50px;
 }
 .texta2 {
-	float:right;
+	float:left;
 	text-indent:5px;
 	line-height:20px;
-	width:24%;
+	width:80%;
 	font-size:12px;
-	margin-top:50px;
+	margin-top:-20px;
+	margin-bottom:20px;
+	margin-left:30px;
 	resize:none;
 	margin-right:20px;
 	background:#EBEBEB;
 	border:none;
-	height:60px;
+	height:80px;
 }
 .texta3 {
 	float:right;
@@ -3086,15 +3094,14 @@ span.selectOption:hover {
 	z-index:100;
 	background-color:#f7f7f7;
 	margin-left:-15px;
-	padding-bottom:30px;
+	padding-bottom:100px;
 	position:relative;
-	padding-bottom:70px;
 	border-bottom:8px solid #FFF;
 }
-#nom {
+.nom {
 	margin-top:0;
 }
-#nom2 {
+.nom2 {
 	margin-top:0;
 	background:none;
 }
@@ -3288,4 +3295,58 @@ span.selectOption:hover {
 	margin-right:7px;
 	margin-top:60px;
 	font-size:20px;
+}
+.none{
+	display:none;
+}
+#datepicker9{
+	position:relative;
+}
+#datepicker9 a{
+	left:0;
+	width:142px;
+	font-size:25px;
+}
+.tree{
+	width:65%;
+	float:left;
+	position:relative;
+	overflow:hidden;
+	height:450px;
+	border:7px solid #EBEBEB;
+}
+.onef{
+	float:left;
+	width:35%;
+}
+.onef h3{
+	color:#00c088;
+	padding:0 20px;
+	margin:0;
+}
+.onef span{
+	font-size:18px;
+	display:block;
+	padding:20px;
+}
+.DivSelectyze{
+	z-index:10 !important;
+}
+input.djs{
+	color:#000 !important;
+	width:180px !important;
+}
+.chnd{
+	color:#000 !important;
+	font-size:22px;
+}
+#edt:hover, #edt:active, #edt:focus{
+	text-decoration:none;
+}
+.wig{
+	width:9%;
+}
+#echo p{
+	padding-left:30px;
+	padding-right:15px;
 }
