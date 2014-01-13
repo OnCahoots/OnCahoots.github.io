@@ -167,7 +167,7 @@
             <li>
               <input type="text" name="text" value="Grade Year" />
             </li>
-            <li><a href="search-detail.html">
+            <li><a href="search.html">
               <button name="btn" class="btn btn3 ch">Access Your Network</button>
               </a></li>
           </ul>

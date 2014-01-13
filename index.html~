@@ -42,7 +42,7 @@
                 <input type="text" name="text" placeholder="EMAIL" />
                 <input type="text" name="text" placeholder="PASSWORD" />
                 <div class="clearfix"></div>
-                <a href="javascript:void(0);" class="fos">Forgot password?</a> <a href="javascript:void(0);" class="pull-left btn6 tt" id="onee">Register</a> <a href="javascript:void(0);" class="pull-right btn6 tt">Login</a> <a href="javascript:void(0);" class="ico"><img src="img/linkedin.png" alt="Image" /></a> <a href="javascript:void(0);" class="ico"><img src="img/facebook.png" alt="Image" /></a> </div>
+                <a href="javascript:void(0);" class="fos">Forgot password?</a> <a href="javascript:void(0);" class="pull-left btn6 tt" id="onee">Register</a> <a href="college.html" class="pull-right btn6 tt">Login</a> <a href="http://www.linkedin.com/company/cahoots-connect-llc" class="ico"><img src="img/linkedin.png" alt="Image" /></a> <a href="javascript:void(0);" class="ico"><img src="img/facebook.png" alt="Image" /></a> </div>
               <!--shef-->
             </div>
             <!--logs-->
@@ -61,7 +61,7 @@
           </div>
           <!--col-lg-4-->
           <div class="col-lg-4 hidee">
-            <div class="centerx"> <a href="#aboutus" class="mod6 btn6">About Us</a> </div>
+            <div class="centerx"> <a href="#about" class="mod6 btn6">About Us</a> </div>
             <!--centerx-->
           </div>
           <!--col-lg-4-->
