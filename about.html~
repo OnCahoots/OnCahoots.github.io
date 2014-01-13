@@ -117,11 +117,11 @@
         <div class="eboard">
           <h3>eBoard</h3>
           <ul class="abo">
-            <li><a href="network.html"><img src="img/profile-img.png" alt="Image" height="55" width="55" /></a> <strong><a href="network.html">nik thomas</a></strong><small>Founder<br />
+            <li><a href="javascript:void(0);"><img src="img/profile-img.png" alt="Image" height="55" width="55" /></a> <strong><a href="javascript:void(0);">nik thomas</a></strong><small>Founder<br />
               Law 2014</small></li>
-            <li><a href="network.html"><a href="network.html"><img src="img/profile-img.png" alt="Image" height="55" width="55" /></a> <strong><a href="network.html">nik thomas</a></strong><small>Founder<br />
+            <li><a href="javascript:void(0);"><a href="javascript:void(0);"><img src="img/profile-img.png" alt="Image" height="55" width="55" /></a> <strong><a href="javascript:void(0);">nik thomas</a></strong><small>Founder<br />
               Law 2014</small></li>
-            <li><a href="javascript:void(0);"><img src="img/profile-img.png" alt="Image" height="55" width="55" /></a> <strong><a href="network.html">nik thomas</a></strong><small>Founder<br />
+            <li><a href="javascript:void(0);"><img src="img/profile-img.png" alt="Image" height="55" width="55" /></a> <strong><a href="javascript:void(0);">nik thomas</a></strong><small>Founder<br />
               Law 2014</small></li>
           </ul>
         </div>

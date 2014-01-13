@@ -56,7 +56,7 @@
               </div>
               <!--modal-header-->
               <div class="modal-body">
-                <form class="forms" id="sops">
+                <form class="forms">
                   <div class="half">
                     <label>Club Name</label>
                     <input type="text" name="text" /><div class="clearfix"></div>
@@ -108,47 +108,52 @@
       <!--run-club-->
       <ul class="sub-nav">
         <li><a href="lowdown.html">Lowdown</a></li>
-        <li><a href="members.html">Members</a></li>
-        <li><a href="about.html" class="current">About</a></li>
+        <li><a href="members.html" class="current">Members</a></li>
+        <li><a href="about.html">About</a></li>
         <li><a href="money.html">Money</a></li>
         <li><a href="photos.html">Photos</a></li>
       </ul>
-      <div class="members" style="padding-top:0;">
-        <div class="eboard">
-          <h3>eBoard</h3>
-          <ul class="abo">
-            <li><a href="network.html"><img src="img/profile-img.png" alt="Image" height="55" width="55" /></a> <strong><a href="network.html">nik thomas</a></strong><small>Founder<br />
-              Law 2014</small></li>
-            <li><a href="network.html"><a href="network.html"><img src="img/profile-img.png" alt="Image" height="55" width="55" /></a> <strong><a href="network.html">nik thomas</a></strong><small>Founder<br />
-              Law 2014</small></li>
-            <li><a href="javascript:void(0);"><img src="img/profile-img.png" alt="Image" height="55" width="55" /></a> <strong><a href="network.html">nik thomas</a></strong><small>Founder<br />
-              Law 2014</small></li>
+      <div class="members">
+        <div class="filter">
+          <ul>
+            <li><span>(52) Filter: </span></li>
+            <li><a href="javascript:void(0);" class="current">All</a></li>
+            <li><a href="javascript:void(0);">Alumni</a></li>
+            <li><a href="javascript:void(0);">Students</a></li>
+            <li><a href="javascript:void(0);">Sponsors</a></li>
           </ul>
         </div>
-        <!--eboard-->
-        <p class="mis">Mission Statement<br />
-          <br />
-          Lorem dolor sit amet, consectetuer adipiscing elit, sed diam nonuy. Lorem ipsum dolor sit amet, conetuer adipiscing elit, sed diam nonummy nibh euaismod tincidunt ut laoreet dolore magna alaarhiquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate Records<br />
-          <br />
-          <a href="javascript:void(0);">12.8.13</a> Lorem dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.<a href="javascript:void(0);">Download PDF</a><br />
-          <br />
-          <a href="javascript:void(0);">11.18.13</a> Ipsum dolor sit amet, ectetuer adipiscing elit, sed diam nonummy.<a href="javascript:void(0);">Download PDF</a><br />
-          <br />
-          <a href="javascript:void(0);">10.4.13</a> Adipiscing elit, sed diam nonummy.<a href="javascript:void(0);">Download PDF</a><br />
-          <br />
-          <a href="javascript:void(0);">10.4.13</a> Adipiscing elit, sed diam nonummy.<a href="javascript:void(0);">Download PDF</a><br />
-          <br />
-          <a href="javascript:void(0);">10.4.13</a> Adipiscing elit, sed diam nonummy.<a href="javascript:void(0);">Download PDF</a><br />
-          <br />
-          <a href="javascript:void(0);">10.4.13</a> Adipiscing elit, sed diam nonummy.<a href="javascript:void(0);">Download PDF</a><br />
-          <br />
-          <a href="javascript:void(0);">10.4.13</a> Adipiscing elit, sed diam nonummy.<a href="javascript:void(0);">Download PDF</a><br />
-          <br />
-          <a href="javascript:void(0);">10.4.13</a> Adipiscing elit, sed diam nonummy.<a href="javascript:void(0);">Download PDF</a><br />
-          <br />
-          <a href="javascript:void(0);">10.4.13</a> Adipiscing elit, sed diam nonummy.<a href="javascript:void(0);">Download PDF</a><br />
-          <br />
-        </p>
+        <!--filter-->
+        <ul class="mem">
+          <li><a href="javascript:void(0);" class="onw"><img src="img/profile-img.png" alt="Image" height="65" width="65" /></a> <strong><a href="javascript:void(0);">ellie richards</a></strong><small>Law 2014</small></li>
+          <li><a href="javascript:void(0);" class="onw"><img src="img/profile-img.png" alt="Image" height="65" width="65" /></a> <strong><a href="javascript:void(0);">ellie richards</a></strong><small>Law 2014</small></li>
+          <li><a href="javascript:void(0);" class="onw"><img src="img/profile-img.png" alt="Image" height="65" width="65" /></a> <strong><a href="javascript:void(0);">ellie richards</a></strong><small>Law 2014</small></li>
+          <li><a href="javascript:void(0);" class="onw"><img src="img/profile-img.png" alt="Image" height="65" width="65" /></a> <strong><a href="javascript:void(0);">ellie richards</a></strong><small>Law 2014</small></li>
+          <li><a href="javascript:void(0);" class="onw"><img src="img/profile-img.png" alt="Image" height="65" width="65" /></a> <strong><a href="javascript:void(0);">ellie richards</a></strong><small>Law 2014</small></li>
+          <li><a href="javascript:void(0);" class="onw"><img src="img/profile-img.png" alt="Image" height="65" width="65" /></a> <strong><a href="javascript:void(0);">ellie richards</a></strong><small>Law 2014</small></li>
+          <li><a href="javascript:void(0);" class="onw"><img src="img/profile-img.png" alt="Image" height="65" width="65" /></a> <strong><a href="javascript:void(0);">ellie richards</a></strong><small>Law 2014</small></li>
+          <li><a href="javascript:void(0);" class="onw"><img src="img/profile-img.png" alt="Image" height="65" width="65" /></a> <strong><a href="javascript:void(0);">ellie richards</a></strong><small>Law 2014</small></li>
+          <li><a href="javascript:void(0);" class="onw"><img src="img/profile-img.png" alt="Image" height="65" width="65" /></a> <strong><a href="javascript:void(0);">ellie richards</a></strong><small>Law 2014</small></li>
+          <li><a href="javascript:void(0);" class="onw"><img src="img/profile-img.png" alt="Image" height="65" width="65" /></a> <strong><a href="javascript:void(0);">ellie richards</a></strong><small>Law 2014</small></li>
+          <li><a href="javascript:void(0);" class="onw"><img src="img/profile-img.png" alt="Image" height="65" width="65" /></a> <strong><a href="javascript:void(0);">ellie richards</a></strong><small>Law 2014</small></li>
+          <li><a href="javascript:void(0);" class="onw"><img src="img/profile-img.png" alt="Image" height="65" width="65" /></a> <strong><a href="javascript:void(0);">ellie richards</a></strong><small>Law 2014</small></li>
+          <li><a href="javascript:void(0);" class="onw"><img src="img/profile-img.png" alt="Image" height="65" width="65" /></a> <strong><a href="javascript:void(0);">ellie richards</a></strong><small>Law 2014</small></li>
+          <li><a href="javascript:void(0);" class="onw"><img src="img/profile-img.png" alt="Image" height="65" width="65" /></a> <strong><a href="javascript:void(0);">ellie richards</a></strong><small>Law 2014</small></li>
+          <li><a href="javascript:void(0);" class="onw"><img src="img/profile-img.png" alt="Image" height="65" width="65" /></a> <strong><a href="javascript:void(0);">ellie richards</a></strong><small>Law 2014</small></li>
+          <li><a href="javascript:void(0);" class="onw"><img src="img/profile-img.png" alt="Image" height="65" width="65" /></a> <strong><a href="javascript:void(0);">ellie richards</a></strong><small>Law 2014</small></li>
+          <li><a href="javascript:void(0);" class="onw"><img src="img/profile-img.png" alt="Image" height="65" width="65" /></a> <strong><a href="javascript:void(0);">ellie richards</a></strong><small>Law 2014</small></li>
+          <li><a href="javascript:void(0);" class="onw"><img src="img/profile-img.png" alt="Image" height="65" width="65" /></a> <strong><a href="javascript:void(0);">ellie richards</a></strong><small>Law 2014</small></li>
+          <li><a href="javascript:void(0);" class="onw"><img src="img/profile-img.png" alt="Image" height="65" width="65" /></a> <strong><a href="javascript:void(0);">ellie richards</a></strong><small>Law 2014</small></li>
+          <li><a href="javascript:void(0);" class="onw"><img src="img/profile-img.png" alt="Image" height="65" width="65" /></a> <strong><a href="javascript:void(0);">ellie richards</a></strong><small>Law 2014</small></li>
+          <li><a href="javascript:void(0);" class="onw"><img src="img/profile-img.png" alt="Image" height="65" width="65" /></a> <strong><a href="javascript:void(0);">ellie richards</a></strong><small>Law 2014</small></li>
+          <li><a href="javascript:void(0);" class="onw"><img src="img/profile-img.png" alt="Image" height="65" width="65" /></a> <strong><a href="javascript:void(0);">ellie richards</a></strong><small>Law 2014</small></li>
+          <li><a href="javascript:void(0);" class="onw"><img src="img/profile-img.png" alt="Image" height="65" width="65" /></a> <strong><a href="javascript:void(0);">ellie richards</a></strong><small>Law 2014</small></li>
+          <li><a href="javascript:void(0);" class="onw"><img src="img/profile-img.png" alt="Image" height="65" width="65" /></a> <strong><a href="javascript:void(0);">ellie richards</a></strong><small>Law 2014</small></li>
+          <li><a href="javascript:void(0);" class="onw"><img src="img/profile-img.png" alt="Image" height="65" width="65" /></a> <strong><a href="javascript:void(0);">ellie richards</a></strong><small>Law 2014</small></li>
+          <li><a href="javascript:void(0);" class="onw"><img src="img/profile-img.png" alt="Image" height="65" width="65" /></a> <strong><a href="javascript:void(0);">ellie richards</a></strong><small>Law 2014</small></li>
+          <li><a href="javascript:void(0);" class="onw"><img src="img/profile-img.png" alt="Image" height="65" width="65" /></a> <strong><a href="javascript:void(0);">ellie richards</a></strong><small>Law 2014</small></li>
+          <li><a href="javascript:void(0);" class="onw"><img src="img/profile-img.png" alt="Image" height="65" width="65" /></a> <strong><a href="javascript:void(0);">ellie richards</a></strong><small>Law 2014</small></li>
+        </ul>
       </div>
       <!--members-->
       <div class="clearfix"></div>
@@ -178,7 +183,6 @@
                 First few words of newsletter or summary. Lorem dolor sit amet.<span>>></span><br />
                 <br />
                 <a href="javascript:void(0);">Post Comment</a></small></li>
-              <a href="javascript:void(0);" class="ciew">View More <span>>></span></a>
             </ul>
             <div class="showa">
               <h2>Crazy With the Color Run</h2>
@@ -208,7 +212,9 @@
                 nonummy.<br />
                 <br />
               </p>
-              <img src="img/running-club-img.png" alt="Image" height="200" /> </div>
+              <img src="img/running-club-img.png" alt="Image" height="200" />
+              <button name="btn" class="btn8 pull-right" id="nsw">Go Back</button>
+            </div>
             <!--showa-->
           </div>
           <!--news-letter-->
@@ -218,18 +224,22 @@
             </div>
             <!--caltitle-->
             <ul class="events-list mod3">
-              <li class="light"><strong>SUN 12.15</strong><span>
+              <li class="light"><a href="events.html" class="evs"><strong>SUN 12.15</strong><span>
                 <h3>Event Title / Headline Here</h3>
-                Brief description / subhead here. <a href="javascript:void(0);">Click for more info.</a></span></li>
-              <li class="dark"><strong>SUN 12.15</strong><span>
+                Brief description / subhead here. <br />
+                Click for more info.</span></a></li>
+              <li class="dark"><a href="events.html" class="evs"><strong>SUN 12.15</strong><span>
                 <h3>Event Title / Headline Here</h3>
-                Brief description / subhead here. <a href="javascript:void(0);">Click for more info.</a></span></li>
-              <li class="light"><strong>SUN 12.15</strong><span>
+                Brief description / subhead here. <br />
+                Click for more info.</span></a></li>
+              <li class="light"><a href="events.html" class="evs"><strong>SUN 12.15</strong><span>
                 <h3>Event Title / Headline Here</h3>
-                Brief description / subhead here. <a href="javascript:void(0);">Click for more info.</a></span></li>
-              <li class="dark"><strong>SUN 12.15</strong><span>
+                Brief description / subhead here. <br />
+                Click for more info.</span></a></li>
+              <li class="dark"><a href="events.html" class="evs"><strong>SUN 12.15</strong><span>
                 <h3>Event Title / Headline Here</h3>
-                Brief description / subhead here. <a href="javascript:void(0);">Click for more info.</a></span></li>
+                Brief description / subhead here. <br />
+                Click for more info.</span></a></li>
             </ul>
           </div>
           <!--calendar-->
@@ -252,7 +262,7 @@ $(document).ready(function(){
 	$('.selectyze2').Selectyze({
 		theme : 'mac'
 	});
-	$('#selector').gentleSelect(); // apply gentleSelect with default options
+$('#selector').gentleSelect(); // apply gentleSelect with default options
 	$('#selector2').gentleSelect(); // apply gentleSelect with default options
 $("#hidShow").click(function(){
 	if($('.sub-com').css('display')=='block')
@@ -267,6 +277,10 @@ $("#hidShow").click(function(){
 $(".hid").on('click', function() {
    $(this).hide();
    $(".showa").show();
+});
+$("#nsw").on('click', function() {
+   $(".showa").hide();
+   $(".hid").show();
 });
 });
 </script>
