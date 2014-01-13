@@ -167,7 +167,12 @@
                     </div>
                     <label>Image</label>
                     <button name="btn" class="btnx">Choose File</button><div class="clearfix"></div>
-                    <label>Club Event</label>
+                    <label>Club Event</label><div class="den">
+                      <select name="style2" id="selector6">
+                        <option>No</option>
+                        <option>Yes</option>
+                      </select>
+                    </div>
                     <div class="den2">
                       <select name="style2" id="selector5">
                         <option>Select Club</option>
@@ -176,11 +181,11 @@
                         <option>Club New York</option>
                         <option>Club London</option>
                       </select>
-                    </div>
-                    <div class="den">
-                      <select name="style2" id="selector6">
+                    </div><div class="clearfix"></div>\
+                    <label>Free Food</label><div class="den">
+                      <select name="style2" id="selector7">
                         <option>Yes</option>
-                        <option>Noe</option>
+                        <option>No</option>
                       </select>
                     </div>
                   </div>
@@ -206,9 +211,9 @@
           <p><a href="javascript:void(0);"><<</a> December 15, 2013 <a href="javascript:void(0);">>></a></p>
         </div>
         <!--caltitle-->
-        <div class="session"> <a href="javascript:void(0);">Free Food</a> <a href="javascript:void(0);" class="nnaa">Daily</a> <a href="javascript:void(0);">Weekly</a> <a href="javascript:void(0);" class="di nna">Monthly</a> </div>
+        <div class="session"> <a href="javascript:void(0);">Free Food</a> <a href="javascript:void(0);" class="nnaa">Daily</a> <a href="javascript:void(0);" class="nnaa5">Weekly</a> <a href="javascript:void(0);" class="nna">Monthly</a> </div>
         <!--session-->
-        <ul class="events-list">
+        <ul class="events-list nnaa5">
           <li class="light"><strong>SUN 12.15<br />
             10:00 am<br />
             Location Here</strong><span>
@@ -251,6 +256,25 @@
             Brief description / subhead here. <a href="javascript:void(0);">Click for more info.</a></span></li>
         </ul>
         <div class="mon"> <img src="img/mon.png" alt="Image" height="355" width="590" class="imd" /> </div>
+        <div class="mon22"> <img src="img/wcal.png" width="590" class="imd" /> 
+          <ul class="events-listss">
+          <li class="dark"><strong>SUN 12.15<br />
+            10:00 am<br />
+            Location Here</strong><span>
+            <h3>Event Title / Headline Here</h3>
+            Brief description / subhead here. <a href="javascript:void(0);">Click for more info.</a></span></li>
+          <li class="light"><strong>SUN 12.15<br />
+            10:00 am<br />
+            Location Here</strong><span>
+            <h3>Event Title / Headline Here</h3>
+            Brief description / subhead here. <a href="javascript:void(0);">Click for more info.</a></span></li>
+          <li class="dark"><strong>SUN 12.15<br />
+            10:00 am<br />
+            Location Here</strong><span>
+            <h3>Event Title / Headline Here</h3>
+            Brief description / subhead here. <a href="javascript:void(0);">Click for more info.</a></span></li>
+          </ul>
+        </div>
         <!--mon-->
       </div>
       <!--calendar-->
@@ -341,6 +365,21 @@ $(".nna").on('click', function() {
 $(".nnaa").on('click', function() {
    $(".mon").hide();
    $(".events-list").show();
+   $(".di").css("color", "#00D689");
+});
+$(".nnaa5").on('click', function() {
+   $(".mon").hide();
+   $(".mon22").show();
+   $(".di").css("color", "#00D689");
+});
+$(".nnaa5").on('click', function() {
+   $(".events-list").hide();
+   $(".mon22").show();
+   $(".di").css("color", "#00D689");
+});
+$(".nna").on('click', function() {
+   $(".mon22").hide();
+   $(".mon").show();
    $(".di").css("color", "#00D689");
 });
 $('#selector').gentleSelect(); // apply gentleSelect with default options

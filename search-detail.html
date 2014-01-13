@@ -193,41 +193,18 @@
           </div>
           <!--tab_content-->
           <div id="tab3x" class="tab_content"><br />
-            <ul class="btns2 chn2">
-              <li>
-                <button name="btn" class="btn">Arts</button>
-              </li>
-              <li>
-                <button name="btn" class="btn">Academic</button>
-              </li>
-              <li>
-                <button name="btn" class="btn">Alumni</button>
-              </li>
-              <li><a href="running-club.html">
-                <button name="btn" class="btn">Health</button>
-                </a></li>
-              <li>
-                <button name="btn" class="btn">Gender</button>
-              </li>
-              <li>
-                <button name="btn" class="btn">Recreational</button>
-              </li>
-              <li>
-                <button name="btn" class="btn">Union Board</button>
-              </li>
-              <li>
-                <button name="btn" class="btn">Media</button>
-              </li>
-              <li>
-                <button name="btn" class="btn">Student Govt.</button>
-              </li>
-              <li>
-                <button name="btn" class="btn">Performance</button>
-              </li>
-              <li>
-                <button name="btn" class="btn">Social</button>
-              </li>
-            </ul>
+            <div id="sops">
+              <label>Category</label>
+              <select name="style2" id="selector">
+                <option>Yes, this club is private</option>
+                <option>No, this club is not private</option>
+                <option>Yes, this club is private</option>
+                <option>No, this club is not private</option>
+                <option>Yes, this club is private</option>
+                <option>No, this club is not private</option>
+              </select>
+              <div class="clearfix"></div>
+            </div>
           </div>
           <!--tab_content-->
           <div id="tab4x" class="tab_content">
@@ -256,6 +233,7 @@
 <script src="js/main.js"></script>
 <script>
 $(document).ready(function(){
+$('#selector').gentleSelect(); // apply gentleSelect with default options
 	$('.selectyze2').Selectyze({
 		theme : 'mac'
 	});

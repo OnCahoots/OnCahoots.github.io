@@ -1435,32 +1435,32 @@ span.selectOption:hover {
 	color:#04b885;
 	text-decoration:none;
 }
-.events-list {
+.events-list, .events-listss {
 	float:left;
 	width:100%;
 }
-.events-list li {
+.events-list li, .events-listss li {
 	width:100%;
 	float:left;
 	clear:left;
 	color:#444;
 	position:relative;
 }
-.events-list li strong {
+.events-list li strong, .events-listss li strong{
 	font-weight:normal;
 	float:left;
 	padding:15px 25px;
 	font-size:17px;
 }
-.events-list li span {
+.events-list li span, .events-listss li span {
 	font-size:14px;
 	padding:0 20px;
 	display:block;
 }
-.events-list li span h3 {
+.events-list li span h3, .events-listss li span h3 {
 	margin-bottom:3px;
 }
-.events-list li span a {
+.events-list li span a, .events-listss li span a {
 	color:#444;
 }
 .events-list li:hover, .events-list li:active, .events-list li:focus {
@@ -1477,8 +1477,16 @@ span.selectOption:hover {
 	color:#FFF;
 	cursor:default;
 }
+.events-listss li:hover, .events-listss li:active, .events-listss li:focus{
+	background-color:#9ce8c6 !important;
+	background:none;
+}
 .events-list li:hover span a, .events-list li:active span a, .events-list li:focus span a {
 	color:#FFF;
+	text-decoration:none;
+}
+.events-listss li:hover span a, .events-listss li:active span a, .events-listss li:focus span a {
+	color:#333;
 	text-decoration:none;
 }
 .btn77 {
@@ -2129,7 +2137,7 @@ span.selectOption:hover {
 .posd {
 	position:relative;
 	display:block;
-	padding:50px 20px;
+	padding:20px;
 }
 .sem {
 	position:relative;
@@ -2272,7 +2280,7 @@ span.selectOption:hover {
 	background: linear-gradient(to bottom, #5c6067 1%, #3c4449 100%); /* W3C */
  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5c6067', endColorstr='#3c4449', GradientType=0 ); /* IE6-8 */
 	width:70%;
-	float:right;
+	float:left;
 	padding:10px 0;
 	font-size:20px;
 }
@@ -2284,12 +2292,13 @@ span.selectOption:hover {
 	font-size:19px;
 	margin-top:5px;
 	margin-bottom:30px;
-	width:10%;
+	width:10.5%;
+	float:left;
 }
 .texta {
 	width:85.5%;
 	resize:none;
-	float:right;
+	float:left;
 	margin-top:10px;
 	padding:10px 15px;
 	height:220px;
@@ -3349,4 +3358,20 @@ input.djs{
 #echo p{
 	padding-left:30px;
 	padding-right:15px;
+}
+.mon22{
+	display:none;
+}
+#tab3x{
+	text-align:left;
+}
+#tab3x label{
+	font-size:18px;
+	float:left;
+	margin-right:10px;
+	margin-top:5px;
+	color:#666;
+}
+.noak{
+	display:none;
 }
