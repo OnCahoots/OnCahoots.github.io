@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>:: ONCAHOOTS ::</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" href="css/vendor/bootstrap.min.css">
+<link rel="stylesheet" href="css/vendor/bootstrap-theme.min.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/screen.css">
+<!--[if lt IE 9]><script src="js/vendor/html5-3.6-respond-1.1.0.min.js"></script><![endif]-->
+</head>
+<body  style="background:url(img/body-bg.png) repeat #f7f7f7;">
+<div class="container" style="max-width:100%; overflow:hidden;">
+  <div class="row">
+    <div class="col-lg-2" style="padding:0;">
+      <div class="navbar" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+            <a class="logo" href="index.html"><img src="img/logo.png" alt="Image" /></a> </div>
+          <!--navbar-header-->
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class=""><a href="college.html"><i class="icon-same"><img src="img/college-icon.png" alt="Image" /></i>College</a></li>
+              <li class=""><a href="clubs.html" class="activea"><i class="icon-same margin10"><img src="img/clubs-icon.png" alt="Image" /></i>Clubs</a></li>
+              <li class=""><a href="network.html"><i class="icon-same margin5"><img src="img/network-icon.png" alt="Image" /></i>Network</a></li>
+              <li class=""><a href="communication.html"><i class="icon-same margin5"><img src="img/communication-icon.png" alt="Image" /></i>Communication</a></li>
+              <li class=""><a href="events.html"><i class="icon-same margin5"><img src="img/events-icon.png" alt="Image" /></i>Events</a></li>
+              <li class=""><a href="settings.html"><i class="icon-same margin5"><img src="img/settings-icon.png" alt="Image" /></i>Settings</a></li>
+              <li class=""><a href="javascript:void(0);">Logout</a></li>
+            </ul>
+          </div>
+          <!--navbar-collapse -->
+        </div>
+        <!--container-->
+      </div>
+      <!--navbar-->
+    </div>
+    <!--col-lg-2-->
+    <div class="col-lg-6" id="ssp3">
+      <div class="title">
+        <h1>Clubs</h1>
+        <p><a href="javascript:void(0);" data-toggle="modal" data-target="#myModal3">Create Your Own Club</a> <span>>></span></p>
+        <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                <h4 class="modal-title" id="myModalLabel">Create Club</h4>
+              </div>
+              <!--modal-header-->
+              <div class="modal-body">
+                <form class="forms" id="sops">
+                  <div class="half">
+                    <label>Club Name</label>
+                    <input type="text" name="text" /><div class="clearfix"></div>
+                    <label>Private</label>
+                    <select name="style2" id="selector">
+                      <option>Yes, this club is private</option>
+                      <option>No, this club is not private</option>
+                      <option>Yes, this club is private</option>
+                      <option>No, this club is not private</option>
+                      <option>Yes, this club is private</option>
+                      <option>No, this club is not private</option>
+                    </select>
+                  </div>
+                  <!--half-->
+                  <div class="half">
+                    <label>Category</label>
+                    <select name="style2" id="selector2">
+                      <option>Academic</option>
+                      <option>Non Academic</option>
+                      <option>Academic</option>
+                      <option>Non Academic</option>
+                      <option>Academic</option>
+                      <option>Non Academic</option>
+                    </select>
+                    <label>&nbsp;</label>
+                    <button name="btn" class="btnx">Choose File</button>
+                  </div>
+                  <!--half-->
+                  <div class="clearfix"></div>
+                  <label class="ne">Description</label>
+                  <textarea class="texta"></textarea>
+                  <button name="btn" class="btng">Create Club</button>
+                </form>
+                <div class="clearfix"></div>
+              </div>
+              <!--modal-body-->
+            </div>
+            <!--modal-content-->
+          </div>
+          <!--modal-dialog-->
+        </div>
+        <!--modal-->
+      </div>
+      <!--title-->
+      <div class="run-club" style="background:url(img/running-club-img.png) no-repeat; height:320px;">
+        <button name="btn" class="btn9">Running Club</button>
+        <button name="btn" class="btn10">Join Club</button>
+      </div>
+      <!--run-club-->
+      <ul class="sub-nav">
+        <li><a href="lowdown.html">Lowdown</a></li>
+        <li><a href="members.html">Members</a></li>
+        <li><a href="about.html" class="current">About</a></li>
+        <li><a href="money.html">Money</a></li>
+        <li><a href="photos.html">Photos</a></li>
+      </ul>
+      <div class="members" style="padding-top:0;">
+        <div class="eboard">
+          <h3>eBoard</h3>
+          <ul class="abo">
+            <li><a href="javascript:void(0);"><img src="img/profile-img.png" alt="Image" height="55" width="55" /></a> <strong><a href="javascript:void(0);">nik thomas</a></strong><small>Founder<br />
+              Law 2014</small></li>
+            <li><a href="javascript:void(0);"><a href="javascript:void(0);"><img src="img/profile-img.png" alt="Image" height="55" width="55" /></a> <strong><a href="javascript:void(0);">nik thomas</a></strong><small>Founder<br />
+              Law 2014</small></li>
+            <li><a href="javascript:void(0);"><img src="img/profile-img.png" alt="Image" height="55" width="55" /></a> <strong><a href="javascript:void(0);">nik thomas</a></strong><small>Founder<br />
+              Law 2014</small></li>
+          </ul>
+        </div>
+        <!--eboard-->
+        <p class="mis">Mission Statement<br />
+          <br />
+          Lorem dolor sit amet, consectetuer adipiscing elit, sed diam nonuy. Lorem ipsum dolor sit amet, conetuer adipiscing elit, sed diam nonummy nibh euaismod tincidunt ut laoreet dolore magna alaarhiquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate Records<br />
+          <br />
+          <a href="javascript:void(0);">12.8.13</a> Lorem dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.<a href="javascript:void(0);">Download PDF</a><br />
+          <br />
+          <a href="javascript:void(0);">11.18.13</a> Ipsum dolor sit amet, ectetuer adipiscing elit, sed diam nonummy.<a href="javascript:void(0);">Download PDF</a><br />
+          <br />
+          <a href="javascript:void(0);">10.4.13</a> Adipiscing elit, sed diam nonummy.<a href="javascript:void(0);">Download PDF</a><br />
+          <br />
+          <a href="javascript:void(0);">10.4.13</a> Adipiscing elit, sed diam nonummy.<a href="javascript:void(0);">Download PDF</a><br />
+          <br />
+          <a href="javascript:void(0);">10.4.13</a> Adipiscing elit, sed diam nonummy.<a href="javascript:void(0);">Download PDF</a><br />
+          <br />
+          <a href="javascript:void(0);">10.4.13</a> Adipiscing elit, sed diam nonummy.<a href="javascript:void(0);">Download PDF</a><br />
+          <br />
+          <a href="javascript:void(0);">10.4.13</a> Adipiscing elit, sed diam nonummy.<a href="javascript:void(0);">Download PDF</a><br />
+          <br />
+          <a href="javascript:void(0);">10.4.13</a> Adipiscing elit, sed diam nonummy.<a href="javascript:void(0);">Download PDF</a><br />
+          <br />
+          <a href="javascript:void(0);">10.4.13</a> Adipiscing elit, sed diam nonummy.<a href="javascript:void(0);">Download PDF</a><br />
+          <br />
+        </p>
+      </div>
+      <!--members-->
+      <div class="clearfix"></div>
+    </div>
+    <!--col-lg-6	-->
+    <div class="col-lg-4" id="mar">
+      <div id="ssp4">
+        <div class="search">
+          <input type="text" name="text" placeholder="Search" />
+          <a href="search.html">
+          <button name="btn"><img src="img/search-icon.png" alt="Image" /></button>
+          </a> </div>
+        <!--search-->
+        <div class="info" style="background:none; background-color:#FFF; padding:20px 0;">
+          <div class="news-letter">
+            <h4>Newsletters</h4>
+            <ul class="hid">
+              <li><small><span>12.8.13 Newsletter Headline/Title Here</span><br />
+                First few words of newsletter or summary. Lorem dolor sit amet, consecteturer adipiscing elit, send diam nonumy <span>>></span><br />
+                <br />
+                <a href="javascript:void(0);">Post Comment</a></small></li>
+              <li><small><span>12.8.13 Newsletter Headline/Title Here</span><br />
+                First few words of newsletter or summary. Lorem dolor sit amet.<span>>></span><br />
+                <br />
+                <a href="javascript:void(0);">Post Comment</a></small></li>
+              <li><small><span>12.8.13 Newsletter Headline/Title Here</span><br />
+                First few words of newsletter or summary. Lorem dolor sit amet.<span>>></span><br />
+                <br />
+                <a href="javascript:void(0);">Post Comment</a></small></li>
+              <a href="javascript:void(0);" class="ciew">View More <span>>></span></a>
+            </ul>
+            <div class="showa">
+              <h2>Crazy With the Color Run</h2>
+              <span>12.8.13</span><br />
+              <p>Here is the full newsletter story. The user will scroll down to read the
+                full story. When he reaches the end of the story, he will see an arrow
+                to take him back to "newsletter main." Lorem dolor sit amet, consec
+                tetuer adipiscing elit, sed diam nonummy.<br />
+                <br />
+                Here is the full newsletter story. The user will scroll down to read the
+                full story. When he reaches the end of the story, he will see an arrow
+                to take him back to "newsletter main." Lorem dolor sit amet, consec
+                tetuer adipiscing elit, sed diam nonummy. Lorem dolor sit amet,
+                consec tetuer adipiscing elit, sed diam nonummy.<br />
+                <br />
+                Dolor sit amet, consec tetuer adipiscing elit, sed diam nonummy.
+                Lorem dolor sit amet, consec tetuer adipiscing elit, sed diam non-Lorem dolor sit amet, consec tetuer adipiscing elit, sed diam nonummy.
+                Here is the full newsletter story. The user will scroll down to read the
+                full story. When he reaches the end of the story, he will see an arrow
+                to take him back to "newsletter main." Lorem dolor sit amet, consec
+                tetuer adipiscing elit, sed diam nonummy. Lorem dolor sit amet,
+                consec tetuer adipiscing elit, sed diam nonummy.<br />
+                <br />
+                Dolor sit amet, consec tetuer adipiscing elit, sed diam nonummy.
+                Lorem dolor sit amet, consec tetuer adipiscing elit, sed diam nonummy.
+                Lorem dolor sit amet, consec tetuer adipiscing elit, sed diam
+                nonummy.<br />
+                <br />
+              </p>
+              <img src="img/running-club-img.png" alt="Image" height="200" /> </div>
+            <!--showa-->
+          </div>
+          <!--news-letter-->
+          <div class="calendar">
+            <div class="caltitle">
+              <p style="padding-bottom:0; float:none; font-size:22px;"><a href="javascript:void(0);"><<</a> Week of November 15, 2013 <a href="javascript:void(0);">>></a></p>
+            </div>
+            <!--caltitle-->
+            <ul class="events-list mod3">
+              <li class="light"><strong>SUN 12.15</strong><span>
+                <h3>Event Title / Headline Here</h3>
+                Brief description / subhead here. <a href="javascript:void(0);">Click for more info.</a></span></li>
+              <li class="dark"><strong>SUN 12.15</strong><span>
+                <h3>Event Title / Headline Here</h3>
+                Brief description / subhead here. <a href="javascript:void(0);">Click for more info.</a></span></li>
+              <li class="light"><strong>SUN 12.15</strong><span>
+                <h3>Event Title / Headline Here</h3>
+                Brief description / subhead here. <a href="javascript:void(0);">Click for more info.</a></span></li>
+              <li class="dark"><strong>SUN 12.15</strong><span>
+                <h3>Event Title / Headline Here</h3>
+                Brief description / subhead here. <a href="javascript:void(0);">Click for more info.</a></span></li>
+            </ul>
+          </div>
+          <!--calendar-->
+        </div>
+        <!--info-->
+      </div>
+      <!--ssp4-->
+    </div>
+    <!--col-lg-4-->
+  </div>
+  <!--row-->
+  <div class="clearfix"></div>
+</div>
+<script src="js/vendor/jquery-1.10.1.min.js"></script>
+<script src="js/vendor/bootstrap.min.js"></script>
+<script src="js/jquery-gentleSelect.js"></script>
+<script src="js/main.js"></script>
+<script>
+$(document).ready(function(){
+	$('.selectyze2').Selectyze({
+		theme : 'mac'
+	});
+	$('#selector').gentleSelect(); // apply gentleSelect with default options
+	$('#selector2').gentleSelect(); // apply gentleSelect with default options
+$("#hidShow").click(function(){
+	if($('.sub-com').css('display')=='block')
+	{
+		$('.sub-com').css('display', 'none');
+	}
+	else
+	{
+		$('.sub-com').css('display', 'block');
+	}
+});
+$(".hid").on('click', function() {
+   $(this).hide();
+   $(".showa").show();
+});
+});
+</script>
+</body>
+</html>

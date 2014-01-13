@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>:: ONCAHOOTS ::</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" href="css/vendor/bootstrap.min.css">
+<link rel="stylesheet" href="css/vendor/bootstrap-theme.min.css">
+<link rel="stylesheet" href="css/jquery-ui.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/screen.css">
+<!--[if lt IE 9]><script src="js/vendor/html5-3.6-respond-1.1.0.min.js"></script><![endif]-->
+</head>
+<body style="background:url(img/body-bg.png) repeat #f7f7f7 center top;">
+<div class="container" style="max-width:100%; overflow:hidden;">
+  <div class="part">
+    <div class="row">
+      <div class="col-lg-2"> <a href="index.html" class="logo2"><img src="img/logo.png" alt="Image" /></a> </div>
+      <!--col-lg-2-->
+      <div class="col-lg-offset-7 col-lg-3">
+        <ul class="tabsq" id="nav2">
+          <li><a href="#students">for students</a></li>
+          <li><a href="#alumni">for alumni</a></li>
+          <li><a href="#about">about us</a></li>
+        </ul>
+      </div>
+      <!--col-lg-3-->
+    </div>
+    <!--row-->
+    <div class="clearfix"></div>
+    <div class="row">
+          <div class="col-lg-offset-3 col-lg-6">
+            <div class="logs hidee">
+              <p>Professional Alumni Network + Vibrant College Campus = </p>
+              <h2>The best four years of your life brought to the real world.</h2>
+              <div class="shef">
+                <input type="text" name="text" placeholder="EMAIL" />
+                <input type="text" name="text" placeholder="PASSWORD" />
+                <div class="clearfix"></div>
+                <a href="javascript:void(0);" class="fos">Forgot password?</a> <a href="javascript:void(0);" class="pull-left btn6 tt" id="onee">Register</a> <a href="college.html" class="pull-right btn6 tt">Login</a> <a href="http://www.linkedin.com/company/cahoots-connect-llc" class="ico"><img src="img/linkedin.png" alt="Image" /></a> <a href="javascript:void(0);" class="ico"><img src="img/facebook.png" alt="Image" /></a> </div>
+              <!--shef-->
+            </div>
+            <!--logs-->
+          </div>
+          <!--col-lg-6-->
+          <div class="col-lg-offset-3"></div>
+          <!--col-lg-offset-3-->
+          <div class="col-lg-4 hidee">
+            <div class="centerx"> <a href="#students" class="mod6 btn6">For Students</a> </div>
+            <!--centerx-->
+          </div>
+          <!--col-lg-4-->
+          <div class="col-lg-4 hidee">
+            <div class="centerx"> <a href="#alumni" class="mod6 btn6">For Alumni</a> </div>
+            <!--centerx-->
+          </div>
+          <!--col-lg-4-->
+          <div class="col-lg-4 hidee">
+            <div class="centerx"> <a href="#about" class="mod6 btn6">About Us</a> </div>
+            <!--centerx-->
+          </div>
+          <!--col-lg-4-->
+          <div class="col-lg-offset-3 col-lg-6 showw none">
+          <div class="hidee2">
+            <div class="half pull-left ins">
+              <div class="lhs">
+                <p>CHOOSE ONE:</p>
+                <a href="javascript:void(0);" class="btn9 cn">Student</a> <i>or</i> <a href="javascript:void(0);" class="bns" id="onee2">Alumni</a>
+                <div class="clearfix"></div>
+                <input type="text" name="text" placeholder="First Name" />
+                <input type="text" name="text" placeholder="Last Name" />
+                <input type="text" name="text" placeholder="Email" />
+                <input type="password" name="password" placeholder="Password" />
+                <input type="password" name="password" placeholder="Confirm it" />
+              </div>
+              <!--lhs-->
+            </div>
+            <!--half-->
+            <div class="half pull-right ins">
+              <div class="lhs"> <small>Select the area nearest your hometown or select other.</small>
+                <select name="style2" id="selector4">
+                  <option>Current City</option>
+                  <option>Name Here</option>
+                </select>
+                <select name="style2" id="selector5">
+                  <option>University</option>
+                  <option>Name Here</option>
+                </select>
+                <a href="javascript:void(0);" class="btn7 cols">Request College</a><span>Don't see your school</span>
+                <select name="style2" id="selector6">
+                  <option>Graduation Year</option>
+                  <option>Name Here</option>
+                </select>
+                <input type="text" name="text" placeholder="Major" />
+                <input type="text" name="text" placeholder="Double Major" />
+                <button name="btn" class="btn7 sign btn-div">Sign Up</button>
+              </div>
+              <!--lhs-->
+            </div>
+            <!--half--></div>
+          </div>
+          <!--col-lg-6-->
+          <div class="col-lg-offset-3"></div>
+          <!--col-lg-offset-3-->
+          <div class="col-lg-offset-3 col-lg-6 showw2 none">
+            <div class="half pull-left ins">
+              <div class="lhs">
+                <p>CHOOSE ONE:</p>
+                <a href="javascript:void(0);" class="bns" id="onee3">Student</a> <i>or</i> <a href="javascript:void(0);" class="btn9 cn">Alumni</a>
+                <div class="clearfix"></div>
+                <input type="text" name="text" placeholder="First Name" />
+                <input type="text" name="text" placeholder="Last Name" />
+                <input type="text" name="text" placeholder="Email" />
+                <input type="password" name="password" placeholder="Password" />
+                <input type="password" name="password" placeholder="Confirm it" />
+              </div>
+              <!--lhs-->
+            </div>
+            <!--half-->
+            <div class="half pull-right ins">
+              <div class="lhs"> <small>Select the area nearest your hometown or select other.</small>
+                <select name="style2" id="selector">
+                  <option>Hometown</option>
+                  <option>Name Here</option>
+                </select>
+                <select name="style2" id="selector2">
+                  <option>University</option>
+                  <option>Name Here</option>
+                </select>
+                <a href="javascript:void(0);" class="btn7 cols">Request College</a><span>Don't see your school</span>
+                <select name="style2" id="selector3">
+                  <option>Graduation Year</option>
+                  <option>Name Here</option>
+                </select>
+                <input type="text" name="text" placeholder="Major" />
+                <input type="text" name="text" placeholder="Double Major" />
+                <input type="text" name="text" placeholder="Proffesional Field" />
+                <button name="btn" class="btn7 sign" style="margin-top:15px;">Sign Up</button>
+              </div>
+              <!--lhs-->
+            </div>
+            <!--half-->
+          </div>
+          <!--col-lg-6-->
+          <div class="col-lg-offset-3"></div>
+          <!--col-lg-offset-3-->
+    </div>
+    <!--row-->
+    <div class="clearfix"></div>
+    <!--clearfix-->
+  </div>
+  <!--part-->
+  <div class="row">
+    <div class="sectio2" id="students">
+      <div class="col-lg-3">
+        <div class="heading">
+          <p>For Students</p>
+        </div>
+        <!--heading-->
+      </div>
+      <!--col-lg-3-->
+      <div class="col-lg-6">
+        <div class="cent-text">
+          <h3>Find Free Food on Your Campus </h3>
+          <p>View every campus event that offers free food every day.<br />
+            Hunger, be gone! </p>
+        </div>
+        <!--cent-text-->
+      </div>
+      <!--col-lg-6-->
+      <div class="clearfix"></div>
+      <div class="col-lg-offset-3"></div>
+      <!--col-lg-offset-3-->
+      <div class="col-lg-12">
+        <div class="ss3">
+          <div class="carus" id="stri">
+            <ul id="flexiselDemo1">
+              <li><a href="javascript:void(0);"><img src="img/im1.png" width="160" height="160" alt="Image" /></a></li>
+              <li><a href="javascript:void(0);"><img src="img/im2.png" width="160" height="160" alt="Image" /></a></li>
+              <li><a href="javascript:void(0);"><img src="img/im3.png" width="160" height="160" alt="Image" /></a></li>
+            </ul>
+          </div>
+          <!--carus-->
+          <i></i> </div>
+        <!--ss3-->
+      </div>
+      <!--col-lg-12-->
+      <div class="col-lg-offset-1 col-lg-5">
+        <div class="cent-text" id="new">
+          <h3>Organize Your Clubs and Organizations </h3>
+          <p>Any student organization can create its own webpage for both internal organization and external communication. 
+            On Cahoots will make leaders of us all.</p>
+        </div>
+        <!--cent-text-->
+      </div>
+      <!--col-lg-5-->
+      <div class="col-lg-5">
+        <div class="cent-text" id="new2">
+          <h3>Access Your College Network </h3>
+          <p>The easiest way to access your network - view a map of all alumni around the world. Filter alums based on their location, field, grad year or major. </p>
+        </div>
+        <!--cent-text-->
+      </div>
+      <!--col-lg-5-->
+      <div class="clearfix"></div>
+      <div class="col-lg-offset-1"></div>
+      <!--col-lg-offset-1-->
+    </div>
+    <!--sectio2-->
+  </div>
+  <!--row-->
+  <div class="clearfix"></div>
+  <!--clearfix-->
+  <div class="row">
+    <div class="sectio2 nom" id="alumni">
+      <div class="col-lg-3">
+        <div class="heading">
+          <p>For Alumni</p>
+        </div>
+        <!--heading-->
+      </div>
+      <!--col-lg-3-->
+      <div class="col-lg-6">
+        <div class="cent-text">
+          <h3>Access to Your College Network </h3>
+          <p>Reach out to old college friends or connect with other alums in your field. Since your time is valuable, set contact requirements to limit communication from students. </p>
+        </div>
+        <!--cent-text-->
+      </div>
+      <!--col-lg-6-->
+      <div class="clearfix"></div>
+      <div class="col-lg-offset-3"></div>
+      <!--col-lg-offset-3-->
+      <div class="col-lg-12">
+        <div class="ss3">
+          <div class="carus" id="stri">
+            <ul id="flexiselDemo12">
+              <li><a href="javascript:void(0);"><img src="img/im11.png" width="160" height="160" alt="Image" /></a></li>
+              <li><a href="javascript:void(0);"><img src="img/im22.png" width="160" height="160" alt="Image" /></a></li>
+              <li><a href="javascript:void(0);"><img src="img/im33.png" width="160" height="160" alt="Image" /></a></li>
+            </ul>
+          </div>
+          <!--carus-->
+          <i></i> </div>
+        <!--ss3-->
+      </div>
+      <!--col-lg-12-->
+      <div class="col-lg-offset-1 col-lg-5">
+        <div class="cent-text" id="new">
+          <h3>Find Your College Wherever You Go </h3>
+          <p>When moving or travelling a new city, click on the alumni map to see who is nearby. Checkout news posted by your college network on each city's Cahoots page.</p>
+        </div>
+        <!--cent-text-->
+      </div>
+      <!--col-lg-5-->
+      <div class="col-lg-5">
+        <div class="cent-text" id="new2">
+          <h3>Stay In Touch with Your College Clubs</h3>
+          <p>Remain an alum member of all the organizations that made your college experience so memorable. What is a cause without a community? </p>
+        </div>
+        <!--cent-text-->
+      </div>
+      <!--col-lg-5-->
+      <div class="clearfix"></div>
+      <div class="col-lg-offset-1"></div>
+      <!--col-lg-offset-1-->
+    </div>
+    <!--sectio2-->
+  </div>
+  <!--row-->
+  <div class="clearfix"></div>
+  <div class="row">
+    <div class="sectio2 nom2" id="about">
+      <div class="col-lg-3">
+        <div class="heading">
+          <p>About Us</p>
+        </div>
+        <!--heading-->
+      </div>
+      <!--col-lg-3-->
+      <div class="col-lg-6">
+        <div class="cent-text" id="new">
+          <h3>Your Network is Waiting For You. On Cahoots.</h3>
+          <br />
+          <p>The college experience isn't just those unforgettable four years. It is the creattive interaction that abounds when athletes, artists, academics, and adventurers meet and collaborate on ideas. It is about whta happens next with the new abilities, talents and confidence instilled by a college education. Imagine the potential of keeping your college community always in contact. On Cahoots creates meaningful relationships between alumni and students in order to maintain cohesive college communities.</p>
+          <br />
+          <a href="javascript:void(0);" class="btn7 pads btn-div" id="onee4">Register</a> </div>
+        <!--cent-text-->
+      </div>
+      <!--lcol-lg-6-->
+      <div class="col-lg-offset-3"></div>
+      <!--col-lg-offset-3-->
+      <div class="clearfix"></div>
+    </div>
+    <!--sectio2-->
+  </div>
+  <!--row-->
+  <div class="clearfix"></div>
+</div>
+<!--container-->
+<script src="js/vendor/jquery-1.10.1.min.js"></script>
+<script src="js/vendor/bootstrap.min.js"></script>
+<script src="js/vendor/jquery-ui.js"></script>
+<script src="js/jquery-gentleSelect.js"></script>
+<script type="text/javascript" src="js/vendor/jquery.flexisel.js"></script>
+<script src="js/vendor/jquery.scrollTo.js"></script>
+<script src="js/vendor/jquery.nav.js"></script>
+<script src="js/main.js"></script>
+<script>
+$(document).ready(function(){
+$("#onee").on('click', function() {
+   $(".hidee").hide();
+   $(".showw").show();
+});
+$("#onee2").on('click', function() {
+   $(".hidee2").hide();
+   $(".showw2").show();
+});
+$("#onee3").on('click', function() {
+   $(".showw2").hide();
+   $(".hidee2").show();
+});
+$("#onee4").on('click', function() {
+   $(".hidee").hide();
+   $(".showw").show();
+});
+	$('#selector').gentleSelect(); // apply gentleSelect with default options
+	$('#selector2').gentleSelect(); // apply gentleSelect with default options
+	$('#selector3').gentleSelect(); // apply gentleSelect with default options
+	$('#selector4').gentleSelect(); // apply gentleSelect with default options
+	$('#selector5').gentleSelect(); // apply gentleSelect with default options
+	$('#selector6').gentleSelect(); // apply gentleSelect with default options
+	$('#datepicker').datepicker({
+		inline: true
+	});
+	$('#datepicker2').datepicker({
+		inline: true
+	});
+	$('.selectyze2').Selectyze({
+		theme : 'mac'
+	});
+	$('.basic').fancySelect();
+$(window).load(function() {
+    $("#flexiselDemo1").flexisel({
+        enableResponsiveBreakpoints: true,
+        responsiveBreakpoints: { 
+            portrait: { 
+                changePoint:480,
+                visibleItems: 1
+            }, 
+            landscape: { 
+                changePoint:640,
+                visibleItems: 2
+            },
+            tablet: { 
+                changePoint:768,
+                visibleItems: 3
+            }
+        }
+    });
+$("#flexiselDemo12").flexisel({
+        enableResponsiveBreakpoints: true,
+        responsiveBreakpoints: { 
+            portrait: { 
+                changePoint:480,
+                visibleItems: 1
+            }, 
+            landscape: { 
+                changePoint:640,
+                visibleItems: 2
+            },
+            tablet: { 
+                changePoint:768,
+                visibleItems: 3
+            }
+        }
+    });
+});
+$('#nav2').onePageNav({
+		begin: function() {
+		console.log('start')
+		},
+		end: function() {
+		console.log('stop')
+		}
+	});
+});
+</script>
+</body>
+</html>
