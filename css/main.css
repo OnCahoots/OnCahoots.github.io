@@ -12,12 +12,16 @@
 	margin:0;
 	padding:0;
 }
-body {
+html, body{
 	font-family: 'varela_roundregular';
 	font-size:13px;
 	color:#3a4348;
+	height:100%;
 	margin:0;
 	padding:0;
+}
+.container{
+	padding-right:0;
 }
 a, img {
 	border:none;
