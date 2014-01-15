@@ -110,7 +110,7 @@
 .las{
 	margin-top:-35px !important;
 }
-#stri{
+.strit{
 	width:90%;
 }
 .form2{
@@ -264,7 +264,7 @@
 .sectio2{
 	margin-top:150%;
 }
-.logo2, .tt, .shef, .centerx, #stri, #stri2, .pads{
+.logo2, .tt, .shef, .centerx, .strit, #stri2, .pads{
 	width:100%;
 	text-align:center;
 	float:left;
@@ -532,7 +532,7 @@ div.fancy-select div.trigger{
 .sectio2{
 	margin-top:290%;
 }
-.logo2, .tt, .shef, .centerx, #stri, #stri2, .pads{
+.logo2, .tt, .shef, .centerx, .strit, #stri2, .pads{
 	width:100%;
 	text-align:center;
 	float:left;

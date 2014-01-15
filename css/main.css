@@ -3172,21 +3172,21 @@ span.selectOption:hover {
 	background: radial-gradient(ellipse at center, #d1d1d3 0%, #f9fafa 100%); /* W3C */
  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d1d1d3', endColorstr='#f9fafa', GradientType=1 ); /* IE6-8 fallback on horizontal gradient */
 }
-#stri {
+.strit {
 	width:50%;
 	margin:0 auto;
 	float:none;
 	position:relative;
 	z-index:1000;
 }
-#stri .nbs-flexisel-nav-left, #stri .nbs-flexisel-nav-right {
+.strit .nbs-flexisel-nav-left, .strit .nbs-flexisel-nav-right {
 	top:113px !important;
 }
-#new, #new2 {
+.newt, .newt2 {
 	margin-top:80px;
 	float:left;
 }
-#new p, #new2 p {
+.newt p, #newt2 p {
 	padding:0 30px;
 	font-size:17px;
 }
