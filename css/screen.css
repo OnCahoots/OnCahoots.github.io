@@ -1,7 +1,7 @@
 /* ==========================================================================
    different screens styles here
    ========================================================================== */
-@media (min-width: 768px) and (max-width: 1200px) {
+@media (min-width: 868px) and (max-width: 1200px) {
 .navbar-toggle{
 	display:block;
 }
@@ -31,11 +31,11 @@
 .dropfil{
 	width:100%;
 }
-.dropfil a{
+/*.dropfil a{
 	width:92%;
-}
+}*/
 .field1{
-	width:92%;
+	width:80%;
 }
 .btn1{
 	padding:10px 12px;
@@ -81,8 +81,37 @@
 .half .gentleselect-label{
 	float:left !important;
 }
+#echo{
+	height:auto !important;
 }
-@media (max-width: 767px) {
+#students{
+	margin-top:68%;
+}
+.hidee2{
+	width:33%;
+	float:left;
+}
+.hidee2 .centerx{
+	width:98%;
+}
+.hidee2 .centerx a{
+	width:75%;
+}
+.las{
+	margin-top:-35px !important;
+}
+#stri{
+	width:90%;
+}
+.form2{
+	width:50%;
+	margin:0 auto;
+}
+}
+@media (max-width: 867px) {
+#echo{
+	height:auto !important;
+}	
 .dropfil, .club, .updates, .half, .green{
 	width:100%;
 }
@@ -123,10 +152,10 @@
 .slider{
 	overflow:hidden;
 	float:left;
-	width:103%;
+	width:100%;
 }
 .strip{
-	top:50%;
+	top:37%;
 }
 .two-clumns{
 	margin-left:0;
@@ -212,14 +241,18 @@
 .half .gentleselect-label{
 	float:left !important;
 }
-.spo{
+/*.spo{
 	left:28%;
+}*/
+.carus li{
+	margin-right:0;
 }
 .mod a{
 	padding:0;
+	width:20% !important;
 }
 .sectio2{
-	margin-top:260%;
+	margin-top:150%;
 }
 .logo2, .tt, .shef, .centerx, #stri, #stri2, .pads{
 	width:100%;
