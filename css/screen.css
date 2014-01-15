@@ -2,6 +2,13 @@
    different screens styles here
    ========================================================================== */
 @media (min-width: 868px) and (max-width: 1200px) {
+.dropfil span img{
+	width:8%;
+	height:58px;
+}
+.dra{
+	width:92%;
+}
 .navbar-toggle{
 	display:block;
 }
@@ -35,7 +42,10 @@
 	width:92%;
 }*/
 .field1{
-	width:80%;
+	width:92%;
+}
+.mod a{
+	width:8%;
 }
 .btn1{
 	padding:10px 12px;
@@ -87,14 +97,14 @@
 #students{
 	margin-top:68%;
 }
-.hidee2{
+.hidees2{
 	width:33%;
 	float:left;
 }
-.hidee2 .centerx{
+.hidees2 .centerx{
 	width:98%;
 }
-.hidee2 .centerx a{
+.hidees2 .centerx a{
 	width:75%;
 }
 .las{
