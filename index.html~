@@ -22,14 +22,9 @@
     <div class="row">
       <div class="col-lg-2"> <a href="index.html" class="logo2"><img src="img/logo.png" alt="Image" /></a> </div>
       <!--col-lg-2-->
-      <div class="col-lg-offset-7 col-lg-3">
-        <ul class="tabsq" id="nav2">
-          <li><a href="#students">for students</a></li>
-          <li><a href="#alumni">for alumni</a></li>
-          <li><a href="#about">about us</a></li>
-        </ul>
+      <div class="col-lg-offset-10"> 
       </div>
-      <!--col-lg-3-->
+      <!--col-lg-offset-10-->
     </div>
     <!--row-->
     <div class="clearfix"></div>
@@ -42,7 +37,7 @@
                 <input type="text" name="text" placeholder="EMAIL" />
                 <input type="text" name="text" placeholder="PASSWORD" />
                 <div class="clearfix"></div>
-                <a href="javascript:void(0);" class="fos">Forgot password?</a> <a href="javascript:void(0);" class="pull-left btn6 tt" id="onee">Register</a> <a href="college.html" class="pull-right btn6 tt">Login</a> <a href="http://www.linkedin.com/company/cahoots-connect-llc" class="ico"><img src="img/linkedin.png" alt="Image" /></a> <a href="javascript:void(0);" class="ico"><img src="img/facebook.png" alt="Image" /></a> </div>
+                <a href="javascript:void(0);" class="fos">Forgot password?</a> <a href="javascript:void(0);" class="pull-left btn6 tt" id="onee">Register</a> <a href="javascript:void(0);" class="pull-right btn6 tt">Login</a> <a href="college.html" class="ico"><img src="img/linkedin.png" alt="Image" /></a> <a href="javascript:void(0);" class="ico"><img src="img/facebook.png" alt="Image" /></a> </div>
               <!--shef-->
             </div>
             <!--logs-->
@@ -50,17 +45,17 @@
           <!--col-lg-6-->
           <div class="col-lg-offset-3"></div>
           <!--col-lg-offset-3-->
-          <div class="col-lg-4 hidee">
+          <div class="col-lg-4 hidee2">
             <div class="centerx"> <a href="#students" class="mod6 btn6">For Students</a> </div>
             <!--centerx-->
           </div>
           <!--col-lg-4-->
-          <div class="col-lg-4 hidee">
+          <div class="col-lg-4 hidee2">
             <div class="centerx"> <a href="#alumni" class="mod6 btn6">For Alumni</a> </div>
             <!--centerx-->
           </div>
           <!--col-lg-4-->
-          <div class="col-lg-4 hidee">
+          <div class="col-lg-4 hidee2 las">
             <div class="centerx"> <a href="#about" class="mod6 btn6">About Us</a> </div>
             <!--centerx-->
           </div>
@@ -83,21 +78,22 @@
             <!--half-->
             <div class="half pull-right ins">
               <div class="lhs"> <small>Select the area nearest your hometown or select other.</small>
-                <select name="style2" id="selector4">
-                  <option>Current City</option>
+               <select name="style2" id="selector">
+                  <option>Hometown</option>
                   <option>Name Here</option>
                 </select>
                 <select name="style2" id="selector5">
                   <option>University</option>
                   <option>Name Here</option>
                 </select>
-                <a href="javascript:void(0);" class="btn7 cols">Request College</a><span>Don't see your school</span>
+                <a href="javascript:void(0);" class="btn7 cols bnss">Request College</a><span>Don't see your school</span>
                 <select name="style2" id="selector6">
                   <option>Graduation Year</option>
                   <option>Name Here</option>
                 </select>
                 <input type="text" name="text" placeholder="Major" />
                 <input type="text" name="text" placeholder="Double Major" />
+                <input type="text" name="text" placeholder="College Name" class="noak" />
                 <button name="btn" class="btn7 sign btn-div">Sign Up</button>
               </div>
               <!--lhs-->
@@ -124,8 +120,8 @@
             <!--half-->
             <div class="half pull-right ins">
               <div class="lhs"> <small>Select the area nearest your hometown or select other.</small>
-                <select name="style2" id="selector">
-                  <option>Hometown</option>
+                <select name="style2" id="selector4">
+                  <option>Current City</option>
                   <option>Name Here</option>
                 </select>
                 <select name="style2" id="selector2">
@@ -316,6 +312,9 @@ $(document).ready(function(){
 $("#onee").on('click', function() {
    $(".hidee").hide();
    $(".showw").show();
+});
+$(".bnss").on('click', function() {
+   $(".noak").show();
 });
 $("#onee2").on('click', function() {
    $(".hidee2").hide();
